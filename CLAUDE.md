@@ -74,7 +74,7 @@ Goal: make `apiFetch` the single source of truth for authenticated calls (auto-a
 `.env.production` sets `VITE_API_URL` to `https://api.ryze.ai` — a domain Dane sold and no longer controls. Anything built with it sends every API call, including logins, to someone else's domain. Running `npm run build` locally as a compile check is fine. The `dist/` it produces must **never be served, uploaded or deployed** until the rebrand task changes `.env.production`. `.env`, `.env.example` and `.env.production` are all tracked in git and this repo is public.
 
 ## Deploy workflow — no host yet
-There is no production server. The droplet that hosted the old product is gone and hosting is TBD. Until a host exists, a task ends at `git push origin main` plus local verification.
+There is no production host. The droplet that hosted the old product is gone and hosting is TBD. Until a host exists, a task ends at `git push origin main` plus local verification.
 
 These rules hold wherever the app is hosted next:
 - Never run `npm install` by hand on a host before pulling and building — it causes package.json/lockfile conflicts with what's committed.
