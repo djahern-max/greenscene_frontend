@@ -1,7 +1,11 @@
-# RYZE.ai Frontend — CLAUDE.md
+# Greenscene Frontend — CLAUDE.md
 
 ## What this is
-React frontend for RYZE.ai V2 — a multi-tenant ATS for recruiting firms. Talks to the FastAPI backend at `VITE_API_URL` (local: `http://localhost:8000`). Serves three user types: admin/recruiter, employer, candidate.
+React frontend for Greenscene (greenscene.io) — a multi-tenant recruiting and onboarding tool for green-industry companies (landscaping and similar). Rye Beach Landscaping, LLC is the intended first real tenant. Onboarding is a future module; nothing for it exists yet. Talks to the FastAPI backend at `VITE_API_URL` (local: `http://localhost:8000`). Serves three user types: admin/recruiter, employer, candidate.
+
+**Origin:** forked 2026-11-15 from `ryzerecruiting_frontend` at commit `758ef68`. The original repo and its folder (`/Users/dane/code/ryzerecruiting_frontend`) are Dane's preserved fallback — **never modify, commit to, or push from them.**
+
+**The code still says RYZE.** Wordmarks, copy, legal pages and config are un-rebranded; rebranding is a separate queued task. The sections below describe the code as it is today, so they still say RYZE where the code does.
 
 ## Stack
 - React 19, React Router 7, Vite 7
@@ -18,6 +22,22 @@ React frontend for RYZE.ai V2 — a multi-tenant ATS for recruiting firms. Talks
 - `src/services/` — API helpers (e.g. `api.js` with `apiFetch`)
 - `src/utils/` — helpers like `imageResize.js`
 - `src/App.jsx` — route definitions; routes are gated by `AdminRoute` / `SuperAdminRoute` wrappers
+
+## Local development
+Facts verified against this machine on 2026-11-15, except where a line says otherwise.
+
+- Repo: `/Users/dane/code/greenscene_frontend`. Sibling backend: `/Users/dane/code/greenscene_backend` — it must be running on port 8000.
+- `npm run dev` serves on `http://localhost:5173` (Vite default; no override in `vite.config.js`).
+- The local `.env` points `VITE_API_URL` at `http://localhost:8000`.
+- Google sign-in is not expected to work locally (backend CHANGELOG, Local dev environment entry, Decision 2: SessionMiddleware stays `https_only=True`). Not tested on 2026-11-15. Use email and password.
+
+## GUARDRAIL: `ryze` is a functional tenant slug — do not rename it
+The string `ryze` is not just branding. It is the platform tenant's slug, and the frontend compares against it. **Do not rename, remove, or "clean up" any of the sites below as part of any task unless that task's spec says so in words.** Display-text rebranding and slug changes are different jobs. The backend carries the matching guardrail (`greenscene_backend/CLAUDE.md`, same heading) — the slug must change in both repos together or not at all.
+
+Where the slug is functional (files and counts as of the fork — five sites, one per file):
+- **`user.tenant_id !== 'ryze'` (3):** `src/components/Header.jsx` (gates "powered by RYZE"), `src/pages/CandidateDashboard.jsx` and `src/pages/CandidateSelfProfile.jsx` (each gates a tenant-name line).
+- **`|| 'ryze'` fallback (1):** `src/contexts/AuthContext.jsx` (analytics `tenant_id` property).
+- **`/ryze/invite` route (1):** `src/App.jsx`. Gated by `SuperAdminRoute` here; the backend endpoint it calls is slug-gated.
 
 ## Auth model
 - **Bearer token, not cookies.** JWT is stored in `localStorage` under the key `token` and sent as `Authorization: Bearer <token>`.
@@ -50,16 +70,26 @@ Goal: make `apiFetch` the single source of truth for authenticated calls (auto-a
 - `API_BASE` / `API_URL` is read from `import.meta.env.VITE_API_URL` with a `http://localhost:8000` fallback — reuse this pattern, don't hardcode the URL in new files.
 - Profile pages (`CandidateProfile`, `EmployerProfile`) are built as read-only, shareable views separate from the admin edit modals — don't collapse these back together without checking with me first.
 
-## Deploy workflow — do NOT run these yourself
+## WARNING: production builds must not leave this machine
+`.env.production` sets `VITE_API_URL` to `https://api.ryze.ai` — a domain Dane sold and no longer controls. Anything built with it sends every API call, including logins, to someone else's domain. Running `npm run build` locally as a compile check is fine. The `dist/` it produces must **never be served, uploaded or deployed** until the rebrand task changes `.env.production`. `.env`, `.env.example` and `.env.production` are all tracked in git and this repo is public.
+
+## Deploy workflow — no host yet
+There is no production server. The droplet that hosted the old product is gone and hosting is TBD. Until a host exists, a task ends at `git push origin main` plus local verification.
+
+These rules hold wherever the app is hosted next:
+- Never run `npm install` by hand on a host before pulling and building — it causes package.json/lockfile conflicts with what's committed.
+- Once a host exists, deploy commands come to Dane as exact commands to run — don't execute them yourself.
+
+### HISTORICAL — old droplet procedure (server no longer exists)
+Kept for reference only; nothing below can be run.
 ```
 # local
-npm run build     # build before pushing if you want me to sanity check it locally
+npm run build
 
 # on server
 git pull
-npm run build     # server rebuild — never `npm install` directly on the server first, it causes package.json/lockfile conflicts with what's committed
+npm run build
 ```
-Give me the exact commands for anything that touches the server — don't run deploy commands yourself.
 
 ## How I want you to work
 - **Audit before you refactor.** For anything beyond a trivial fix: read the relevant files and related CSS Modules, list what you'd change and why, and wait for me to confirm before writing code.
