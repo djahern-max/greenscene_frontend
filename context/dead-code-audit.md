@@ -1,5 +1,7 @@
 # Dead Code Audit — Frontend
 
+> Written for ryzerecruiting_frontend before the 2026-11-15 fork.
+
 Date: 2026-07-08
 Scope: findings only. No deletions or edits were made as part of this task (except `context/current-feature.md`, which was updated per instructions to park the apiFetch migration and register this task).
 
