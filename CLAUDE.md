@@ -5,7 +5,7 @@ React frontend for Greenscene (greenscene.io) — a multi-tenant recruiting and 
 
 **Origin:** forked 2026-11-15 from `ryzerecruiting_frontend` at commit `758ef68`. The original repo and its folder (`/Users/dane/code/ryzerecruiting_frontend`) are Dane's preserved fallback — **never modify, commit to, or push from them.**
 
-**The code still says RYZE.** Wordmarks, copy, legal pages and config are un-rebranded; rebranding is a separate queued task. The sections below describe the code as it is today, so they still say RYZE where the code does.
+**What says Greenscene, and what still says RYZE on purpose (narrow rebrand, 2026-11-16).** Wordmarks, product-name copy, both legal pages and `.env.production` now say Greenscene / greenscene.io. Still RYZE by design: the `ryze` tenant slug (GUARDRAIL below); the SMS-consent sentence in `src/components/BookingCard.jsx` (kept byte-identical — see pre-deploy blockers); the logo files `public/RYZE_LOGO.png` and `src/assets/RYZE_LOGO.svg`, the `index.html` icon link and three inline copies of the old mark in `src/pages/ChatPage.jsx`; internal names (`.ryze*` classes in `src/theme.css`, the `ryzeUp` and `ryze-pulse` keyframes); code comments; the `ryzerecruiting` Spaces bucket URLs in `src/pages/Landing.jsx`; and all of the unrouted `src/pages/SaasLanding.jsx`. Marketing copy was renamed, not rewritten — it still describes a recruiting-firm product. The landing demo video section is hidden behind `SHOW_DEMO_VIDEO = false` in `Landing.jsx` until new media exists.
 
 ## Stack
 - React 19, React Router 7, Vite 7
@@ -35,7 +35,7 @@ Facts verified against this machine on 2026-11-15, except where a line says othe
 The string `ryze` is not just branding. It is the platform tenant's slug, and the frontend compares against it. **Do not rename, remove, or "clean up" any of the sites below as part of any task unless that task's spec says so in words.** Display-text rebranding and slug changes are different jobs. The backend carries the matching guardrail (`greenscene_backend/CLAUDE.md`, same heading) — the slug must change in both repos together or not at all.
 
 Where the slug is functional (files and counts as of the fork — five sites, one per file):
-- **`user.tenant_id !== 'ryze'` (3):** `src/components/Header.jsx` (gates "powered by RYZE"), `src/pages/CandidateDashboard.jsx` and `src/pages/CandidateSelfProfile.jsx` (each gates a tenant-name line).
+- **`user.tenant_id !== 'ryze'` (3):** `src/components/Header.jsx` (gates "powered by Greenscene"), `src/pages/CandidateDashboard.jsx` and `src/pages/CandidateSelfProfile.jsx` (each gates a tenant-name line).
 - **`|| 'ryze'` fallback (1):** `src/contexts/AuthContext.jsx` (analytics `tenant_id` property).
 - **`/ryze/invite` route (1):** `src/App.jsx`. Gated by `SuperAdminRoute` here; the backend endpoint it calls is slug-gated.
 
@@ -71,7 +71,16 @@ Goal: make `apiFetch` the single source of truth for authenticated calls (auto-a
 - Profile pages (`CandidateProfile`, `EmployerProfile`) are built as read-only, shareable views separate from the admin edit modals — don't collapse these back together without checking with me first.
 
 ## WARNING: production builds must not leave this machine
-`.env.production` sets `VITE_API_URL` to `https://api.ryze.ai` — a domain Dane sold and no longer controls. Anything built with it sends every API call, including logins, to someone else's domain. Running `npm run build` locally as a compile check is fine. The `dist/` it produces must **never be served, uploaded or deployed** until the rebrand task changes `.env.production`. `.env`, `.env.example` and `.env.production` are all tracked in git and this repo is public.
+`.env.production` sets `VITE_API_URL` to `https://api.greenscene.io` (changed 2026-11-16 from `https://api.ryze.ai`, a domain Dane sold). That host does not exist yet — hosting is TBD — so a production build calls a name that does not resolve and fails. Running `npm run build` locally as a compile check is fine. The `dist/` it produces must **never be served, uploaded or deployed** until a host exists and every pre-deploy blocker below is cleared. `.env`, `.env.example` and `.env.production` are all tracked in git and this repo is public.
+
+### Pre-deploy blockers (recorded 2026-11-16 — only Dane can clear these)
+The legal pages (`src/pages/PrivacyPolicy.jsx`, `src/pages/TermsOfService.jsx`) were written ahead of the facts, on Dane's instruction. Before anything is deployed:
+- **Greenscene, LLC does not exist yet.** Both legal pages name it as operator, company, SMS sender and protected party.
+- **The `hello@greenscene.io` mailbox does not exist yet.** Both pages give it as the contact for SMS HELP, data-rights requests and general questions (five places).
+- **The Twilio registration is still under RYZE GROUP, Inc.** Dane plans a new application rather than reusing it. The legal pages already name Greenscene, LLC as the SMS sender.
+- **The SMS-consent sentence still names RYZE GROUP, Inc. (RYZE.ai)** — in `src/components/BookingCard.jsx` and on the backend consent page — and no longer matches the legal pages. It changes together with the Twilio registration, in both repos.
+- **Check the Stripe product name** against the plan name on the upgrade page ("Greenscene Recruiting Platform", `src/pages/UpgradePage.jsx`).
+- **Attorney review of the Privacy Policy and Terms before they go public** — in particular the limitation-of-liability and indemnification clauses (Terms §12, §13), and the fact that the Terms do not name the operator outside §8 (§12 and §13 name Greenscene, LLC as the protected party; §1 defines only the "Platform").
 
 ## Deploy workflow — no host yet
 There is no production host. The droplet that hosted the old product is gone and hosting is TBD. Until a host exists, a task ends at `git push origin main` plus local verification.

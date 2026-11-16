@@ -1,5 +1,7 @@
 > Copied 2026-11-15 from `ryzerecruiting_frontend` commit `d96ef09` (`context/rebrand-audit.md`); written before the fork. Body below is unchanged. Category F (docs) rows are stale: the four `context/current-feature.md` rows describe the original repo's working copy at the time, and the two `CLAUDE.md` rows predate the 2026-11-15 rewrite of that file. On 2026-11-15 every line-numbered row in categories A–E (123 rows) was checked against this repo and has a `ryze` hit at the stated line.
 
+> 2026-11-16 — the narrow rebrand (frontend) acted on B (1 row), the live rows of C (display text; both legal pages; not the logo/favicon rows and not the SMS-consent sentence at `BookingCard.jsx:356`) and one row of D (`.env.production`), plus the D contact rows on the legal pages. A, E, the three bucket URLs in D and every `SaasLanding.jsx` row were not touched. Tables below are not rewritten; line numbers and text are as of 2026-11-02.
+
 # Rebrand Audit — "ryze" occurrences (Frontend)
 
 Date: 2026-11-02
