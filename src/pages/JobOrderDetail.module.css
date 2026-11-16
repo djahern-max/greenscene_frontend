@@ -3,7 +3,7 @@
 .page {
     --bg: #f1f5f9;
     --card: #ffffff;
-    --border: #e2e8f0;
+    --border: var(--color-border);
     --blue: var(--color-primary);
     --navy: var(--color-text);
     --text: var(--color-text);
@@ -440,7 +440,7 @@
 .matchBarTrack {
     flex: 1;
     height: 6px;
-    background: #e2e8f0;
+    background: var(--color-border);
     border-radius: 3px;
     overflow: hidden;
 }
@@ -582,7 +582,7 @@
     font-size: 1rem;
     font-weight: 700;
     color: var(--sub);
-    background: #e2e8f0;
+    background: var(--color-surface-alt);
 }
 
 .employerQuickName {

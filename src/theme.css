@@ -39,7 +39,6 @@
 
 /* ---------- Shared tokens (do NOT vary by theme) ---------- */
 :root {
-    --border-200: #e2e8f0;
     --container: 1120px;
     --radius: 14px;
     --font-sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto,

@@ -361,7 +361,7 @@
    ══════════════════════════════════════════════════════ */
 .bodyCard {
     background: var(--card, #fff);
-    border: 1px solid var(--border, #e2e8f0);
+    border: 1px solid var(--color-border);
     border-radius: var(--radius, 12px);
     overflow: hidden;
 }
@@ -488,7 +488,7 @@
     font-size: 13px;
     font-family: var(--font, 'DM Sans', sans-serif);
     color: var(--color-text);
-    border: 1.5px solid var(--border, #e2e8f0);
+    border: 1.5px solid var(--color-border);
     border-radius: 8px;
     padding: 7px 10px;
     background: #fff;

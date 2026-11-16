@@ -43,7 +43,7 @@
 
 .tableWrapper {
   background: white;
-  border: 1px solid var(--border-200);
+  border: 1px solid var(--color-border);
   border-radius: 12px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
   overflow-x: auto;
@@ -74,7 +74,7 @@
 }
 
 .row {
-  border-bottom: 1px solid var(--border-200);
+  border-bottom: 1px solid var(--color-border);
   transition: background 100ms;
 }
 
@@ -141,7 +141,7 @@
 .totalRow td {
   font-weight: 700;
   color: var(--color-text);
-  border-top: 2px solid var(--border-200);
+  border-top: 2px solid var(--color-border);
   background: var(--bg-50);
 }
 
@@ -153,7 +153,7 @@
   color: var(--text-400);
   font-size: 14px;
   background: white;
-  border: 1px solid var(--border-200);
+  border: 1px solid var(--color-border);
   border-radius: 12px;
 }
 

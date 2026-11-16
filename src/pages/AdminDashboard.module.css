@@ -38,7 +38,7 @@
    ══════════════════════════════════════════════════════ */
 .header {
   background: #ffffff;
-  border-bottom: 1px solid var(--border-200);
+  border-bottom: 1px solid var(--color-border);
   padding: 0 24px;
   position: sticky;
   top: 0;
@@ -161,7 +161,7 @@
   width: 32px;
   height: 32px;
   border-radius: 7px;
-  border: 1px solid var(--border-200);
+  border: 1px solid var(--color-border);
   background: white;
   color: var(--text-400);
   font-size: 14px;
@@ -290,7 +290,7 @@
 
 .statCard {
   background: white;
-  border: 1px solid var(--border-200);
+  border: 1px solid var(--color-border);
   border-radius: 12px;
   padding: 16px 20px;
   display: flex;
@@ -381,7 +381,7 @@
    ══════════════════════════════════════════════════════ */
 .tableWrapper {
   background: white;
-  border: 1px solid var(--border-200);
+  border: 1px solid var(--color-border);
   border-radius: 12px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
   overflow-x: auto;
@@ -416,7 +416,7 @@
 }
 
 .row {
-  border-bottom: 1px solid var(--border-200);
+  border-bottom: 1px solid var(--color-border);
   transition: background 100ms;
 }
 
@@ -731,7 +731,7 @@
   color: var(--text-400);
   font-size: 14px;
   background: white;
-  border: 1px solid var(--border-200);
+  border: 1px solid var(--color-border);
   border-radius: 12px;
 }
 
@@ -756,7 +756,7 @@
 
 .bookingCard {
   background: white;
-  border: 1px solid var(--border-200);
+  border: 1px solid var(--color-border);
   border-radius: 12px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
   overflow: hidden;
@@ -767,7 +767,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 13px 16px 11px;
-  border-bottom: 1px solid var(--border-200);
+  border-bottom: 1px solid var(--color-border);
   background: var(--bg-50);
 }
 
@@ -784,8 +784,8 @@
 
 .cardField {
   padding: 11px 16px;
-  border-bottom: 1px solid var(--border-200);
-  border-right: 1px solid var(--border-200);
+  border-bottom: 1px solid var(--color-border);
+  border-right: 1px solid var(--color-border);
   display: flex;
   flex-direction: column;
   gap: 3px;
@@ -819,7 +819,7 @@
   align-items: center;
   justify-content: center;
   background: var(--bg-50);
-  border-top: 1px solid var(--border-200);
+  border-top: 1px solid var(--color-border);
 }
 
 /* ══════════════════════════════════════════════════════
@@ -877,7 +877,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 20px 24px 16px;
-  border-bottom: 1px solid var(--border-200);
+  border-bottom: 1px solid var(--color-border);
   flex-shrink: 0;
 }
 
@@ -923,7 +923,7 @@
   justify-content: flex-end;
   gap: 10px;
   padding: 16px 24px;
-  border-top: 1px solid var(--border-200);
+  border-top: 1px solid var(--color-border);
   flex-shrink: 0;
 }
 
@@ -938,7 +938,7 @@
   align-items: center;
   padding: 7px 16px;
   border-radius: 8px;
-  border: 1.5px solid var(--border-200);
+  border: 1.5px solid var(--color-border);
   background: white;
   color: var(--color-text-muted);
   font-size: 13px;
@@ -996,7 +996,7 @@
 
 .fieldInput {
   padding: 9px 12px;
-  border: 1.5px solid var(--border-200);
+  border: 1.5px solid var(--color-border);
   border-radius: 8px;
   font-size: 14px;
   font-family: var(--font-sans);
@@ -1019,7 +1019,7 @@
 
 .fieldTextarea {
   padding: 9px 12px;
-  border: 1.5px solid var(--border-200);
+  border: 1.5px solid var(--color-border);
   border-radius: 8px;
   font-size: 14px;
   font-family: var(--font-sans);
@@ -1060,7 +1060,7 @@
 
 .timeSlotBtn {
   background: var(--bg-50);
-  border: 1.5px solid var(--border-200);
+  border: 1.5px solid var(--color-border);
   border-radius: 7px;
   padding: 6px 11px;
   font-size: 12px;
@@ -1094,7 +1094,7 @@
 .modalCancelBtn {
   padding: 8px 18px;
   border-radius: 8px;
-  border: 1.5px solid var(--border-200);
+  border: 1.5px solid var(--color-border);
   background: white;
   color: var(--color-text-muted);
   font-size: 13px;
@@ -1229,12 +1229,12 @@
   color: var(--color-text-muted);
   margin-bottom: 12px;
   padding-bottom: 8px;
-  border-bottom: 2px solid #e2e8f0;
+  border-bottom: 2px solid var(--color-border);
 }
 
 .sectionCount {
   margin-left: 8px;
-  background: #e2e8f0;
+  background: var(--color-surface-alt);
   color: var(--color-text-muted);
   font-size: 0.75rem;
   font-weight: 700;
@@ -1308,7 +1308,7 @@
   }
 
   .cardField:nth-last-child(-n+2) {
-    border-bottom: 1px solid var(--border-200);
+    border-bottom: 1px solid var(--color-border);
   }
 
   .cardField:last-child {
@@ -1365,7 +1365,7 @@
   gap: 8px;
   padding: 10px 12px;
   background: var(--bg-50);
-  border: 1.5px solid var(--border-200);
+  border: 1.5px solid var(--color-border);
   border-radius: 8px;
   margin-bottom: 12px;
 }

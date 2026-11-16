@@ -7,7 +7,7 @@
     --bg: #f1f5f9;
     --card: #ffffff;
     --bannerCard: var(--color-surface-alt);
-    --border: #e2e8f0;
+    --border: var(--color-border);
     --blue: var(--color-primary);
     --blue-h: var(--color-primary-hover);
     --navy: var(--color-text);
@@ -434,7 +434,7 @@
 }
 
 .skillTag:hover {
-    background: #e2e8f0;
+    background: var(--color-border);
 }
 
 .detailList {

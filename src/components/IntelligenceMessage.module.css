@@ -80,7 +80,7 @@
     align-self: flex-start;
     margin-top: 14px;
     background: none;
-    border: 1px solid var(--border-200, #e2e8f0);
+    border: 1px solid var(--color-border);
     border-radius: 20px;
     padding: 4px 14px;
     font-family: inherit;
@@ -123,7 +123,7 @@
     justify-content: space-between;
     gap: 12px;
     background: var(--color-surface-alt);
-    border: 1.5px solid var(--border-100, #e2e8f0);
+    border: 1.5px solid var(--color-border);
     border-radius: 10px;
     padding: 12px 14px;
     transition: border-color 150ms;

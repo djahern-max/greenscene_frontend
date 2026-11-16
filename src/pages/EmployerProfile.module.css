@@ -113,7 +113,7 @@
     font-size: 2rem;
     font-weight: 700;
     color: var(--color-text-muted);
-    background: #e2e8f0;
+    background: var(--color-surface-alt);
 }
 
 .logoOverlay {
@@ -153,7 +153,7 @@
 
 .rawIconButton {
     background: #fff;
-    border: 1px solid #e2e8f0;
+    border: 1px solid var(--color-border);
     border-radius: 8px;
     padding: 6px 12px;
     font-size: 0.85rem;
@@ -241,7 +241,7 @@
    ══════════════════════════════════════════════════════ */
 .section {
     background: #fff;
-    border: 1px solid var(--border-100, #e2e8f0);
+    border: 1px solid var(--color-border);
     border-radius: 12px;
     overflow: hidden;
 }
@@ -357,7 +357,7 @@
 
 .notesSection .sectionTitle {
     background: #f8fafc;
-    border-bottom-color: #e2e8f0;
+    border-bottom-color: var(--color-border);
     color: var(--color-text);
 }
 
@@ -428,7 +428,7 @@
     gap: 10px;
     padding: 10px 12px;
     background: var(--bg-50, #f8fafc);
-    border: 1px solid var(--border-100, #e2e8f0);
+    border: 1px solid var(--color-border);
     border-radius: 8px;
     cursor: pointer;
     transition: background 140ms, border-color 140ms;
