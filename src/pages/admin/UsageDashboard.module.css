@@ -58,7 +58,7 @@
 }
 
 .table thead tr {
-  background: #1e3a5f;
+  background: var(--color-text);
   border-bottom: none;
 }
 

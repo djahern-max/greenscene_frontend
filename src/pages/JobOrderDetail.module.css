@@ -5,7 +5,7 @@
     --card: #ffffff;
     --border: #e2e8f0;
     --blue: var(--color-primary);
-    --navy: #1e3a5f;
+    --navy: var(--color-text);
     --text: #1e293b;
     --sub: #475569;
     --muted: #94a3b8;
@@ -102,7 +102,7 @@
 .heroBanner {
     height: 220px;
     width: 100%;
-    background: linear-gradient(120deg, #1c3f6e 0%, #0a66c2 60%, #378fe9 100%);
+    background: linear-gradient(120deg, var(--color-text) 0%, var(--color-primary-hover) 60%, var(--color-primary) 100%);
     background-size: cover;
     background-position: center;
     border-radius: var(--radius);
@@ -163,7 +163,7 @@
     font-size: 1.8rem;
     font-weight: 800;
     color: #fff;
-    background: #1c3f6e;
+    background: var(--color-text);
 }
 
 /* ── Identity Info ───────────────────────────────────── */
@@ -234,7 +234,7 @@
     font-size: 0.75rem;
     font-weight: 600;
     background: #eff6ff;
-    color: #1e3a5f;
+    color: var(--color-text);
     border: 1px solid #bfdbfe;
     border-radius: 20px;
     padding: 3px 10px;
@@ -314,7 +314,7 @@
 }
 
 .notesCard {
-    border-left: 3px solid #1e3a5f;
+    border-left: 3px solid var(--color-text);
     background: #f8fafc;
 }
 
@@ -333,7 +333,7 @@
 }
 
 .matchTitleCount {
-    background: #1e3a5f;
+    background: var(--color-text);
     color: #fff;
     font-size: 0.65rem;
     font-weight: 700;
@@ -528,7 +528,7 @@
 
 .statusSaveBtn {
     width: 100%;
-    background: #1e3a5f;
+    background: var(--color-primary);
     color: white;
     border: none;
     border-radius: 8px;
@@ -541,7 +541,7 @@
 }
 
 .statusSaveBtn:hover:not(:disabled) {
-    background: #0f2444;
+    background: var(--color-primary-hover);
 }
 
 .statusSaveBtn:disabled {

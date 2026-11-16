@@ -624,7 +624,7 @@
 
 .profileBtn {
   padding: 8px 18px;
-  background: #1c3f6e;
+  background: var(--color-primary);
   color: #fff;
   border: none;
   border-radius: 20px;

@@ -3,7 +3,7 @@
 .overlay {
     position: fixed;
     inset: 0;
-    background: rgba(15, 23, 42, 0.45);
+    background: color-mix(in srgb, var(--color-text) 45%, transparent);
     z-index: 200;
     display: flex;
     align-items: flex-start;
@@ -28,7 +28,7 @@
     max-width: 520px;
     height: 100vh;
     overflow-y: auto;
-    box-shadow: -8px 0 40px rgba(15, 23, 42, 0.16);
+    box-shadow: -8px 0 40px color-mix(in srgb, var(--color-text) 16%, transparent);
     display: flex;
     flex-direction: column;
     animation: slideIn 220ms ease;

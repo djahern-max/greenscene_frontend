@@ -3,7 +3,7 @@
     height: 100dvh;
     overflow: hidden;
     background: #f6f9fc;
-    color: #1a2e44;
+    color: var(--color-text);
     font-family: "DM Sans", sans-serif;
     -webkit-font-smoothing: antialiased;
     display: flex;
@@ -51,7 +51,7 @@
 .sidebarMobileTitle {
     font-size: 13px;
     font-weight: 700;
-    color: #1a2e44;
+    color: var(--color-text);
 }
 
 .sidebarCloseBtn {
@@ -67,7 +67,7 @@
 
 .sidebarCloseBtn:hover {
     background: #f0f5fb;
-    color: #1a2e44;
+    color: var(--color-text);
 }
 
 .tableBtn {
@@ -89,7 +89,7 @@
 
 .tableBtn:hover {
     background: #f0f5fb;
-    color: #1a2e44;
+    color: var(--color-text);
 }
 
 .tableBtnActive {
@@ -172,14 +172,14 @@
 
 .hamburgerBtn:hover {
     background: #f0f5fb;
-    color: #1a2e44;
+    color: var(--color-text);
 }
 
 .mobileActiveTable {
     font-family: "DM Mono", monospace;
     font-size: 13px;
     font-weight: 600;
-    color: #1a2e44;
+    color: var(--color-text);
     flex: 1;
     white-space: nowrap;
     overflow: hidden;
@@ -202,7 +202,7 @@
     font-family: "DM Mono", monospace;
     font-size: 14px;
     font-weight: 600;
-    color: #1a2e44;
+    color: var(--color-text);
     flex-shrink: 0;
 }
 
@@ -220,7 +220,7 @@
     background: #f6f9fc;
     border: 1px solid #dce8f4;
     border-radius: 7px;
-    color: #1a2e44;
+    color: var(--color-text);
     font-size: 13px;
     font-family: "DM Sans", sans-serif;
     outline: none;
@@ -272,7 +272,7 @@
 
 .clearBtn:hover {
     background: #f0f5fb;
-    color: #1a2e44;
+    color: var(--color-text);
 }
 
 .filterToggleBtn {
@@ -290,7 +290,7 @@
 
 .filterToggleBtn:hover {
     background: #f0f5fb;
-    color: #1a2e44;
+    color: var(--color-text);
 }
 
 .filterToggleBtnActive {
@@ -373,7 +373,7 @@
     background: #ffffff;
     border: 1px solid #dce8f4;
     border-radius: 6px;
-    color: #1a2e44;
+    color: var(--color-text);
     font-size: 12px;
     font-family: "DM Sans", sans-serif;
     outline: none;
@@ -548,7 +548,7 @@
 
 .cancelEditBtn:hover {
     background: #f0f5fb;
-    color: #1a2e44;
+    color: var(--color-text);
 }
 
 .deleteBtn {
@@ -639,7 +639,7 @@
 
 .detailVal {
     font-size: 13px;
-    color: #1a2e44;
+    color: var(--color-text);
     word-break: break-word;
 }
 
@@ -650,7 +650,7 @@
     background: #ffffff;
     border: 1px solid #b0cce8;
     border-radius: 5px;
-    color: #1a2e44;
+    color: var(--color-text);
     font-size: 13px;
     font-family: "DM Sans", sans-serif;
     outline: none;
@@ -669,7 +669,7 @@
     background: #ffffff;
     border: 1px solid #b0cce8;
     border-radius: 5px;
-    color: #1a2e44;
+    color: var(--color-text);
     font-size: 13px;
     font-family: "DM Mono", monospace;
     outline: none;

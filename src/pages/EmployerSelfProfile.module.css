@@ -113,7 +113,7 @@
    ══════════════════════════════════════════════════════ */
 .banner {
     height: 160px;
-    background: linear-gradient(120deg, #1c3f6e 0%, #0a66c2 60%, #378fe9 100%);
+    background: linear-gradient(120deg, var(--color-text) 0%, var(--color-primary-hover) 60%, var(--color-primary) 100%);
     background-size: cover;
     background-position: center;
     display: block;
@@ -174,7 +174,7 @@
     width: 100px;
     height: 100px;
     border-radius: 12px;
-    background: #1c3f6e;
+    background: var(--color-text);
     color: #fff;
     font-size: 2.4rem;
     font-weight: 800;
@@ -283,7 +283,7 @@
     background: var(--bannerCard, #fff);
     padding: 0 4px 8px;
     border-bottom: 3px solid transparent;
-    border-image: linear-gradient(to right, #1e3a5f, #2563eb, #1e3a5f) 1;
+    border-image: linear-gradient(to right, var(--color-text), var(--color-primary), var(--color-text)) 1;
     min-height: 16px;
 }
 
@@ -509,8 +509,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-top: 2px solid var(--navy2, #1e3a5f);
-    background: var(--navy, #1c3f6e);
+    border-top: 2px solid var(--color-text);
+    background: var(--color-text);
     border-radius: var(--radius, 12px);
     padding: 10px 20px;
     margin-top: 20px;
