@@ -498,7 +498,7 @@
 
 .tagLevel {
     background: #f0fdf4;
-    color: #15803d;
+    color: var(--color-primary);
     border: 1px solid #bbf7d0;
     text-transform: capitalize;
 }

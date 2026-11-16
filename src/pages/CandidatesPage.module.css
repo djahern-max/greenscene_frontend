@@ -46,7 +46,7 @@
     gap: 5px;
     font-size: 0.78rem;
     font-weight: 600;
-    color: #15803d;
+    color: var(--color-primary);
     background: #f0fdf4;
     border: 1px solid #bbf7d0;
     padding: 2px 10px;

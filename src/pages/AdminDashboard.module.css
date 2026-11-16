@@ -80,7 +80,7 @@
 
 .adminBadge {
   background: #dcfce7;
-  color: #15803d;
+  color: var(--color-primary);
   font-size: 10px;
   font-weight: 700;
   padding: 2px 7px;
@@ -248,7 +248,7 @@
   gap: 6px;
   background: #f0fdf4;
   border: 1px solid #86efac;
-  color: #15803d;
+  color: var(--color-primary);
   font-size: 11px;
   font-weight: 700;
   padding: 5px 10px;
@@ -552,7 +552,7 @@
 
 .statusConfirmed {
   background: #dcfce7;
-  color: #15803d;
+  color: var(--color-primary);
 }
 
 .statusCancelled {
@@ -681,7 +681,7 @@
 }
 
 .confirmBtn:hover:not(:disabled) {
-  background: #15803d;
+  background: var(--color-primary);
   box-shadow: 0 3px 10px rgba(22, 163, 74, 0.4);
   transform: translateY(-1px);
 }
@@ -1163,7 +1163,7 @@
 }
 
 .inviteFirmBtn:hover {
-  background: #15803d;
+  background: var(--color-primary);
 }
 
 /* ── Profile Icon (FlatIcon) ───────────────────────────────────── */

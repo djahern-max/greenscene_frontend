@@ -91,7 +91,7 @@
 }
 
 .statIconOpen {
-    color: #15803d;
+    color: var(--color-primary);
 }
 
 .statIconFilled {
@@ -111,7 +111,7 @@
 }
 
 .statNumOpen {
-    color: #15803d;
+    color: var(--color-primary);
 }
 
 .statNumFilled {

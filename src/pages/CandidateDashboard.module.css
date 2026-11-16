@@ -240,7 +240,7 @@
 
 .pill_confirmed {
   background: #dcfce7;
-  color: #15803d;
+  color: var(--color-primary);
 }
 
 .pill_pending {
@@ -698,7 +698,7 @@
   align-items: center;
   padding: 6px 14px;
   background: #dcfce7;
-  color: #15803d;
+  color: var(--color-primary);
   border-radius: 999px;
   font-size: 13px;
   font-weight: 600;
