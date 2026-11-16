@@ -2,7 +2,7 @@
 
 .page {
     min-height: 100vh;
-    background: var(--bg-50);
+    background: var(--color-surface-alt);
     font-family: var(--font-sans);
 }
 
@@ -384,7 +384,7 @@
 }
 
 .cancelBtn:hover {
-    background: var(--bg-100);
+    background: var(--color-border);
 }
 
 /* ── Empty / Error ───────────────────────────────────── */
@@ -474,8 +474,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 8px 12px 10px 16px;
-    border-top: 1px solid #f1f5f9;
-    background: #f8fafc;
+    border-top: 1px solid var(--color-border);
+    background: var(--color-surface-alt);
     gap: 8px;
 }
 

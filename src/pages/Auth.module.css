@@ -12,7 +12,7 @@
   justify-content: center;
   padding: 2rem;
   gap: 1.25rem;
-  background: var(--bg-50, #f1f5f9);
+  background: var(--color-surface-alt);
   font-family: var(--font-sans);
 }
 
@@ -139,7 +139,7 @@
 }
 
 .oauthButton:hover {
-  background: var(--bg-50, #f8fafc);
+  background: var(--color-surface-alt);
   border-color: var(--color-primary);
   color: var(--color-primary);
   transform: translateY(-1px);
@@ -261,7 +261,7 @@
 
 .eyeButton:hover {
   color: var(--color-text);
-  background: var(--bg-100, #f1f5f9);
+  background: var(--color-border);
 }
 
 /* ── Submit button ───────────────────────────────────────────── */
@@ -390,7 +390,7 @@
 }
 
 .userTypeButton:hover {
-  background: var(--bg-50, #f8fafc);
+  background: var(--color-surface-alt);
   border-color: var(--color-primary);
   box-shadow: 0 2px 8px color-mix(in srgb, var(--color-primary) 8%, transparent);
 }

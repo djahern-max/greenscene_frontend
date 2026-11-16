@@ -2,7 +2,7 @@
 
 .page {
     min-height: 100vh;
-    background: var(--bg-50);
+    background: var(--color-surface-alt);
     font-family: var(--font-sans);
 }
 
@@ -197,7 +197,7 @@
 }
 
 .row {
-    border-bottom: 1px solid var(--border-100, #f1f5f9);
+    border-bottom: 1px solid var(--color-border);
     transition: background 120ms;
 }
 
@@ -374,7 +374,7 @@
 }
 
 .embedConfirmNo:hover {
-    background: var(--bg-100);
+    background: var(--color-border);
 }
 
 /* ── Expand Button ── */
@@ -424,7 +424,7 @@
 }
 
 .editBtn:hover {
-    background: var(--bg-100);
+    background: var(--color-border);
 }
 
 .deleteBtn {

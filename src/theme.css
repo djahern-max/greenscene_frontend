@@ -30,13 +30,6 @@
     --color-border-accent: color-mix(in srgb, var(--color-primary) 45%, var(--color-surface));
 }
 
-/* ---------- Legacy tokens (being replaced by the role tokens above) ---------- */
-:root {
-    /* Backgrounds */
-    --bg-50: #f1f5f9;
-    --bg-100: #e4e6eb;
-}
-
 /* ---------- Shared tokens (do NOT vary by theme) ---------- */
 :root {
     --container: 1120px;
@@ -70,7 +63,7 @@ body {
     margin: 0;
     font-family: var(--font-sans);
     color: var(--color-text);
-    background: var(--bg-50);
+    background: var(--color-surface-alt);
 }
 
 /* ---------- Helpers ---------- */

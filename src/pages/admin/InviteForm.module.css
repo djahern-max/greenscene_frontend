@@ -2,7 +2,7 @@
 
 .page {
     min-height: 100vh;
-    background: var(--bg-50, #f1f5f9);
+    background: var(--color-surface-alt);
 }
 
 .container {
@@ -39,7 +39,7 @@
 
 .cardHeader {
     padding: 28px 28px 24px;
-    border-bottom: 1px solid #f1f5f9;
+    border-bottom: 1px solid var(--color-border);
 }
 
 .title {
@@ -96,7 +96,7 @@
 }
 
 .input:disabled {
-    background: #f8fafc;
+    background: var(--color-surface-alt);
     color: var(--color-text-muted);
     cursor: not-allowed;
 }
@@ -200,7 +200,7 @@
 
 .resultTable {
     width: 100%;
-    background: #f8fafc;
+    background: var(--color-surface-alt);
     border: 1px solid var(--color-border);
     border-radius: 8px;
     overflow: hidden;

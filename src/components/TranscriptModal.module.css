@@ -104,7 +104,7 @@
 /* ── Turns ── */
 .turn {
     padding: 10px 0 12px;
-    border-bottom: 1px solid var(--border-50, #f1f5f9);
+    border-bottom: 1px solid var(--color-border);
 }
 
 .turn:last-child {

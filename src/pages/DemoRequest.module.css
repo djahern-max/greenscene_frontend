@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: center;
   padding: 2rem;
-  background: var(--bg-50, #f1f5f9);
+  background: var(--color-surface-alt);
   font-family: var(--font-sans);
 }
 

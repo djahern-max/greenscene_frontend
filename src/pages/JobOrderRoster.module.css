@@ -2,7 +2,7 @@
 
 .page {
     min-height: 100vh;
-    background: var(--bg-50);
+    background: var(--color-surface-alt);
     font-family: var(--font-sans);
 }
 
@@ -269,7 +269,7 @@
 }
 
 .editBtn:hover {
-    background: #f8fafc;
+    background: var(--color-surface-alt);
     border-color: var(--color-border);
     color: var(--color-text);
 }
@@ -347,8 +347,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 8px 12px 10px 16px;
-    border-top: 1px solid #f1f5f9;
-    background: #f8fafc;
+    border-top: 1px solid var(--color-border);
+    background: var(--color-surface-alt);
 }
 
 .cardActions {
@@ -610,7 +610,7 @@
 }
 
 .cancelBtn:hover:not(:disabled) {
-    background: var(--bg-100);
+    background: var(--color-border);
 }
 
 .saveBtn {

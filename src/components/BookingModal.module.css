@@ -76,7 +76,7 @@
 }
 
 .closeBtn:hover {
-    background: var(--bg-100);
+    background: var(--color-border);
     color: var(--color-text);
 }
 

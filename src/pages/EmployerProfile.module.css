@@ -5,7 +5,7 @@
    ══════════════════════════════════════════════════════ */
 .page {
     min-height: 100vh;
-    background: var(--bg-50, #f8fafc);
+    background: var(--color-surface-alt);
     font-family: var(--font-sans);
 }
 
@@ -44,7 +44,7 @@
     left: 0;
     right: 0;
     height: 80px;
-    background: linear-gradient(to bottom, transparent, rgba(248, 250, 252, 0.35));
+    background: linear-gradient(to bottom, transparent, color-mix(in srgb, var(--color-surface-alt) 35%, transparent));
     pointer-events: none;
 }
 
@@ -90,7 +90,7 @@
     height: 80px;
     border-radius: 12px;
     border: 3px solid #fff;
-    background: #f1f5f9;
+    background: var(--color-surface-alt);
     overflow: hidden;
     position: relative;
     cursor: pointer;
@@ -165,7 +165,7 @@
 }
 
 .rawIconButton:hover {
-    background: #f1f5f9;
+    background: var(--color-surface-alt);
     border-color: var(--color-border);
 }
 
@@ -253,8 +253,8 @@
     letter-spacing: 0.7px;
     color: var(--color-text-muted);
     padding: 14px 20px 12px;
-    border-bottom: 1px solid var(--border-100, #f1f5f9);
-    background: var(--bg-50, #f8fafc);
+    border-bottom: 1px solid var(--color-border);
+    background: var(--color-surface-alt);
 }
 
 .sectionBody {
@@ -356,7 +356,7 @@
 }
 
 .notesSection .sectionTitle {
-    background: #f8fafc;
+    background: var(--color-surface-alt);
     border-bottom-color: var(--color-border);
     color: var(--color-text);
 }
@@ -365,7 +365,7 @@
     display: inline-block;
     font-size: 0.7rem;
     font-weight: 600;
-    background: #f1f5f9;
+    background: var(--color-surface-alt);
     color: var(--color-text-muted);
     border: 1px solid var(--color-border);
     border-radius: 20px;
@@ -427,7 +427,7 @@
     justify-content: space-between;
     gap: 10px;
     padding: 10px 12px;
-    background: var(--bg-50, #f8fafc);
+    background: var(--color-surface-alt);
     border: 1px solid var(--color-border);
     border-radius: 8px;
     cursor: pointer;

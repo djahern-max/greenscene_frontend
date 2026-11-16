@@ -2,7 +2,7 @@
 
 .page {
     min-height: 100vh;
-    background: #f1f5f9;
+    background: var(--color-surface-alt);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,7 +52,7 @@
 /* ── Plan card ─────────────────────────────────────────────── */
 
 .planCard {
-    background: #f8fafc;
+    background: var(--color-surface-alt);
     border: 1.5px solid var(--color-border);
     border-radius: 12px;
     padding: 24px;
