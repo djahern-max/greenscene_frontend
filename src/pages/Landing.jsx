@@ -12,6 +12,10 @@ const POSTER_URL =
 const FULL_VIDEO_URL =
   "https://ryzerecruiting.nyc3.cdn.digitaloceanspaces.com/Demo_Video/THE_ABSOLUTE_FINAL_VERSION_New_Intro_Song.mp4";
 
+// The demo videos were produced for the old brand. The section is hidden, not
+// removed, until new media exists — set to true to render it again.
+const SHOW_DEMO_VIDEO = false;
+
 // Icons (existing assets)
 import aiIcon from "../assets/icons/artificial-intelligence.svg";
 import calendarIcon from "../assets/icons/calendar.svg";
@@ -270,7 +274,7 @@ export default function Landing() {
           <a href="/demo" className={styles.ctaSecondary}>Request a demo</a>
         </div>
 
-        <VideoSection />
+        {SHOW_DEMO_VIDEO && <VideoSection />}
       </main>
 
       {/* ── Proof row ──────────────────────────────── */}
