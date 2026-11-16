@@ -13,7 +13,7 @@ const STATUS_OPTIONS = [
 ];
 
 const STATUS_STYLES = {
-    open: { background: '#f0fdf4', color: '#15803d', border: '1px solid #bbf7d0' },
+    open: { background: '#f0fdf4', color: 'var(--color-primary)', border: '1px solid #bbf7d0' },
     filled: { background: '#eff6ff', color: '#1e3a5f', border: '1px solid #bfdbfe' },
     on_hold: { background: '#fff7ed', color: '#c2410c', border: '1px solid #fed7aa' },
 };

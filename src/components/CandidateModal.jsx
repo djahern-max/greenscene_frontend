@@ -466,7 +466,7 @@ export default function CandidateModal({ candidate, token, onSaved, onClose, enr
                                     padding: '10px 14px',
                                     marginBottom: '16px',
                                     fontSize: '13px',
-                                    color: '#15803d',
+                                    color: 'var(--color-primary)',
                                 }}>
                                     ✓ Profile parsed — review the fields below and click <strong>Save Changes</strong> to update this candidate.
                                 </div>

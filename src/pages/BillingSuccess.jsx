@@ -15,7 +15,7 @@ export default function BillingSuccess() {
             particleCount: 150,
             spread: 80,
             origin: { y: 0.6 },
-            colors: ['#0a66c2', '#16a34a', '#f59e0b', '#ec4899'],
+            colors: ['#15803d', '#16a34a', '#f59e0b', '#ec4899'],
         });
 
         const timer = setTimeout(() => {

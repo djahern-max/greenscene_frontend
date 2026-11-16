@@ -7,7 +7,7 @@ import styles from './JobOrderDetail.module.css';
 const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:8000';
 
 const STATUS_STYLES = {
-    open: { background: '#f0fdf4', color: '#15803d', border: '1px solid #bbf7d0' },
+    open: { background: '#f0fdf4', color: 'var(--color-primary)', border: '1px solid #bbf7d0' },
     filled: { background: '#eff6ff', color: '#1e3a5f', border: '1px solid #bfdbfe' },
     on_hold: { background: '#fff7ed', color: '#c2410c', border: '1px solid #fed7aa' },
 };
@@ -49,7 +49,7 @@ function StatusBadge({ status }) {
 
 function MatchBar({ score }) {
     const pct = Math.round((score ?? 0) * 100);
-    const color = pct >= 80 ? '#15803d' : pct >= 60 ? '#0a66c2' : '#94a3b8';
+    const color = pct >= 80 ? 'var(--color-primary)' : pct >= 60 ? '#0a66c2' : 'var(--color-text-muted)';
     return (
         <div className={styles.matchBarWrap}>
             <div className={styles.matchBarTrack}>

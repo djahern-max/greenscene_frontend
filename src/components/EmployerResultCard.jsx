@@ -2,9 +2,9 @@
 import styles from "./EmployerResultCard.module.css";
 
 const RELATIONSHIP_COLORS = {
-    active:   { bg: "#f0fdf4", color: "#15803d", border: "#bbf7d0" },
+    active:   { bg: "#f0fdf4", color: "var(--color-primary)", border: "#bbf7d0" },
     prospect: { bg: "#eff6ff", color: "#1d4ed8", border: "#bfdbfe" },
-    inactive: { bg: "#f8fafc", color: "#64748b", border: "#e2e8f0" },
+    inactive: { bg: "var(--color-surface-alt)", color: "var(--color-text-muted)", border: "var(--color-border)" },
     warm:     { bg: "#fff7ed", color: "#c2410c", border: "#fed7aa" },
 };
 

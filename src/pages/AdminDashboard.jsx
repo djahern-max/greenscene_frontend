@@ -809,7 +809,7 @@ function AdminDashboard() {
                 <span className={styles.sectionCount}>{candidateBookings.length}</span>
                 <i
                   className={`fi ${candidatesOpen ? 'fi-rr-angle-up' : 'fi-rr-angle-down'}`}
-                  style={{ marginLeft: 'auto', fontSize: '13px', color: '#94a3b8' }}
+                  style={{ marginLeft: 'auto', fontSize: '13px', color: 'var(--color-text-muted)' }}
                 ></i>
               </div>
 
@@ -988,7 +988,7 @@ function AdminDashboard() {
                 <span className={styles.sectionCount}>{employerBookings.length}</span>
                 <i
                   className={`fi ${employersOpen ? 'fi-rr-angle-up' : 'fi-rr-angle-down'}`}
-                  style={{ marginLeft: 'auto', fontSize: '13px', color: '#94a3b8' }}
+                  style={{ marginLeft: 'auto', fontSize: '13px', color: 'var(--color-text-muted)' }}
                 ></i>
               </div>
 

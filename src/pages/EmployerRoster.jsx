@@ -18,9 +18,9 @@ const RELATIONSHIP_OPTIONS = [
 
 const STATUS_STYLES = {
     prospect: { background: '#dbeafe', color: '#1e40af', border: '1px solid #bfdbfe' },
-    active_client: { background: '#dcfce7', color: '#15803d', border: '1px solid #86efac' },
-    placed: { background: '#f0fdf4', color: '#166534', border: '1px solid #bbf7d0' },
-    inactive: { background: '#f1f5f9', color: '#475569', border: '1px solid #cbd5e1' },
+    active_client: { background: '#dcfce7', color: 'var(--color-primary)', border: '1px solid #86efac' },
+    placed: { background: '#f0fdf4', color: 'var(--color-primary-hover)', border: '1px solid #bbf7d0' },
+    inactive: { background: 'var(--color-surface-alt)', color: 'var(--color-text-muted)', border: '1px solid var(--color-border)' },
     not_a_fit: { background: '#fee2e2', color: '#b91c1c', border: '1px solid #fca5a5' },
 };
 

@@ -207,7 +207,7 @@ export default function BookingCard({ variant = "employer" }) {
               <div className={styles.field}>
                 <label htmlFor="booking-company">
                   Current Company{" "}
-                  <span style={{ fontWeight: 400, color: '#5a7290' }}>(optional)</span>
+                  <span style={{ fontWeight: 400, color: 'var(--color-text-muted)' }}>(optional)</span>
                 </label>
                 <input
                   id="booking-company"
@@ -281,7 +281,7 @@ export default function BookingCard({ variant = "employer" }) {
               <div className={styles.field}>
                 <label htmlFor="booking-website">
                   Company Website{" "}
-                  <span style={{ fontWeight: 400, color: '#5a7290' }}>(optional)</span>
+                  <span style={{ fontWeight: 400, color: 'var(--color-text-muted)' }}>(optional)</span>
                   <button
                     type="button"
                     className={styles.infoBtn}
@@ -314,7 +314,7 @@ export default function BookingCard({ variant = "employer" }) {
             <label htmlFor="booking-phone">
               Phone Number{" "}
               {isCandidate && (
-                <span style={{ fontWeight: 400, color: '#5a7290' }}>(optional)</span>
+                <span style={{ fontWeight: 400, color: 'var(--color-text-muted)' }}>(optional)</span>
               )}
             </label>
             <input

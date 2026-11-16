@@ -2,7 +2,7 @@
 import styles from "./CandidateResultCard.module.css";
 
 const CAREER_LEVEL_COLORS = {
-    junior: { bg: "#f0fdf4", color: "#15803d", border: "#bbf7d0" },
+    junior: { bg: "#f0fdf4", color: "var(--color-primary)", border: "#bbf7d0" },
     mid: { bg: "#eff6ff", color: "#1d4ed8", border: "#bfdbfe" },
     senior: { bg: "#faf5ff", color: "#7c3aed", border: "#e9d5ff" },
     executive: { bg: "#fff7ed", color: "#c2410c", border: "#fed7aa" },

@@ -120,7 +120,7 @@ function SessionItem({ session, isActive, onSelect, onDelete }) {
 
 function CandidateCard({ candidate }) {
     const score = candidate.score != null ? Math.round(candidate.score * 100) : null;
-    const scoreColor = score >= 80 ? "#15803d" : score >= 60 ? "#92400e" : "#6b7280";
+    const scoreColor = score >= 80 ? "var(--color-primary)" : score >= 60 ? "#92400e" : "var(--color-text-muted)";
     return (
         <div className={styles.candidateCard}>
             <div className={styles.cardTop}>
@@ -156,7 +156,7 @@ function MeetingCard({ meeting }) {
     const [expanded, setExpanded] = useState(false);
 
     const statusColors = {
-        confirmed: { bg: "#dcfce7", color: "#15803d", label: "Confirmed" },
+        confirmed: { bg: "#dcfce7", color: "var(--color-primary)", label: "Confirmed" },
         pending: { bg: "#fef3c7", color: "#92400e", label: "Pending" },
         cancelled: { bg: "#fee2e2", color: "#b91c1c", label: "Cancelled" },
         completed: { bg: "#dbeafe", color: "#1d4ed8", label: "Completed" },
@@ -216,7 +216,7 @@ function TypingIndicator({ statusMsg }) {
                     height={28}
                     style={{ animation: "ryze-pulse 1.4s ease-in-out infinite", transformOrigin: "center" }}
                 >
-                    <path fill="#0a66c2" d="M 186.078125 19.484375 L 0.367188 341.148438 L 180.234375 341.148438 L 229.054688 256.585938 L 201.605469 215.015625 L 190.46875 234.308594 L 154.511719 296.59375 L 77.539062 296.59375 L 186.394531 108.039062 L 296.730469 295.972656 L 243.730469 295.972656 L 221.453125 340.527344 L 374.554688 340.527344 Z" />
+                    <path style={{ fill: "var(--color-primary)" }} d="M 186.078125 19.484375 L 0.367188 341.148438 L 180.234375 341.148438 L 229.054688 256.585938 L 201.605469 215.015625 L 190.46875 234.308594 L 154.511719 296.59375 L 77.539062 296.59375 L 186.394531 108.039062 L 296.730469 295.972656 L 243.730469 295.972656 L 221.453125 340.527344 L 374.554688 340.527344 Z" />
                 </svg>
             </div>
             <div className={`${styles.bubble} ${styles.bubbleAI}`}>
@@ -226,7 +226,7 @@ function TypingIndicator({ statusMsg }) {
                             <span key={delay} className={styles.dot} style={{ animationDelay: `${delay}ms` }} />
                         ))}
                     </div>
-                    <span style={{ fontSize: "0.83rem", color: "#94a3b8", fontStyle: "italic" }}>{statusMsg}</span>
+                    <span style={{ fontSize: "0.83rem", color: "var(--color-text-muted)", fontStyle: "italic" }}>{statusMsg}</span>
                 </div>
             </div>
         </div>
@@ -243,7 +243,7 @@ function MessageBubble({ message }) {
         <div className={`${styles.messageRow} ${isUser ? styles.messageRowUser : styles.messageRowAI}`}>
             {!isUser && (
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 375" width={28} height={28} style={{ flexShrink: 0, marginTop: 2 }}>
-                    <path fill="#0a66c2" d="M 186.078125 19.484375 L 0.367188 341.148438 L 180.234375 341.148438 L 229.054688 256.585938 L 201.605469 215.015625 L 190.46875 234.308594 L 154.511719 296.59375 L 77.539062 296.59375 L 186.394531 108.039062 L 296.730469 295.972656 L 243.730469 295.972656 L 221.453125 340.527344 L 374.554688 340.527344 Z" />
+                    <path style={{ fill: "var(--color-primary)" }} d="M 186.078125 19.484375 L 0.367188 341.148438 L 180.234375 341.148438 L 229.054688 256.585938 L 201.605469 215.015625 L 190.46875 234.308594 L 154.511719 296.59375 L 77.539062 296.59375 L 186.394531 108.039062 L 296.730469 295.972656 L 243.730469 295.972656 L 221.453125 340.527344 L 374.554688 340.527344 Z" />
                 </svg>
             )}
             <div className={`${styles.bubble} ${isUser ? styles.bubbleUser : styles.bubbleAI}`}>
@@ -570,7 +570,7 @@ export default function ChatPage() {
                             <div className={styles.emptyState}>
                                 <div className={styles.emptyIcon}>
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 375" width="64" height="64">
-                                        <path fill="#004aad" d="M 186.078125 19.484375 L 0.367188 341.148438 L 180.234375 341.148438 L 229.054688 256.585938 L 201.605469 215.015625 L 190.46875 234.308594 L 154.511719 296.59375 L 77.539062 296.59375 L 186.394531 108.039062 L 296.730469 295.972656 L 243.730469 295.972656 L 221.453125 340.527344 L 374.554688 340.527344 Z" />
+                                        <path style={{ fill: "var(--color-primary)" }} d="M 186.078125 19.484375 L 0.367188 341.148438 L 180.234375 341.148438 L 229.054688 256.585938 L 201.605469 215.015625 L 190.46875 234.308594 L 154.511719 296.59375 L 77.539062 296.59375 L 186.394531 108.039062 L 296.730469 295.972656 L 243.730469 295.972656 L 221.453125 340.527344 L 374.554688 340.527344 Z" />
                                     </svg>
                                 </div>
                                 <h2 className={styles.emptyTitle}>Greenscene Intelligence</h2>
