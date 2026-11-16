@@ -27,7 +27,7 @@
 .cardName {
     font-weight: 700;
     font-size: 0.9rem;
-    color: var(--text-900);
+    color: var(--color-text);
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -40,7 +40,7 @@
 
 .cardSize {
     font-size: 0.78rem;
-    color: var(--text-500);
+    color: var(--color-text-muted);
 }
 
 .cardBadges {

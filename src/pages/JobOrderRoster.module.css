@@ -25,14 +25,14 @@
 .pageTitle {
     font-size: 1.5rem;
     font-weight: 800;
-    color: #64748b;
+    color: var(--color-text-muted);
     margin: 0 0 0.25rem;
     letter-spacing: -0.3px;
 }
 
 .pageSub {
     font-size: 0.875rem;
-    color: var(--text-500);
+    color: var(--color-text-muted);
     margin: 0;
 }
 
@@ -87,7 +87,7 @@
 }
 
 .statIconTotal {
-    color: #64748b;
+    color: var(--color-text-muted);
 }
 
 .statIconOpen {
@@ -105,7 +105,7 @@
 .statNum {
     font-size: 1.6rem;
     font-weight: 800;
-    color: #0f172a;
+    color: var(--color-text);
     line-height: 1;
     margin-bottom: 2px;
 }
@@ -127,7 +127,7 @@
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.06em;
-    color: #94a3b8;
+    color: var(--color-text-muted);
 }
 
 /* ── Desktop Table ───────────────────────────────────── */
@@ -175,7 +175,7 @@
 .table td {
     padding: 14px 16px;
     vertical-align: middle;
-    color: var(--text-700);
+    color: var(--color-text);
 }
 
 .titleCell {
@@ -190,12 +190,12 @@
 .salaryCell {
     font-size: 0.85rem;
     white-space: nowrap;
-    color: var(--text-700);
+    color: var(--color-text);
 }
 
 .dateCell {
     font-size: 0.82rem;
-    color: var(--text-500);
+    color: var(--color-text-muted);
     white-space: nowrap;
 }
 
@@ -265,7 +265,7 @@
 }
 
 .editBtn {
-    color: #64748b;
+    color: var(--color-text-muted);
 }
 
 .editBtn:hover {
@@ -275,7 +275,7 @@
 }
 
 .deleteBtn {
-    color: #94a3b8;
+    color: var(--color-text-muted);
 }
 
 .deleteBtn:hover:not(:disabled) {
@@ -331,7 +331,7 @@
 
 .cardMeta {
     font-size: 0.78rem;
-    color: #64748b;
+    color: var(--color-text-muted);
     display: flex;
     align-items: center;
     gap: 5px;
@@ -339,7 +339,7 @@
 }
 
 .cardMetaDot {
-    color: #cbd5e1;
+    color: var(--color-border);
 }
 
 .cardFooter {
@@ -361,7 +361,7 @@
 .emptyState {
     text-align: center;
     padding: 60px 24px;
-    color: var(--text-500);
+    color: var(--color-text-muted);
     font-size: 15px;
     background: white;
     border: 1px solid var(--border-200);
@@ -436,7 +436,7 @@
 .drawerTitle {
     font-size: 1.1rem;
     font-weight: 700;
-    color: #0f172a;
+    color: var(--color-text);
     margin: 0;
 }
 
@@ -444,7 +444,7 @@
     background: none;
     border: none;
     font-size: 1rem;
-    color: #94a3b8;
+    color: var(--color-text-muted);
     cursor: pointer;
     padding: 4px;
     border-radius: 6px;
@@ -452,7 +452,7 @@
 }
 
 .drawerClose:hover {
-    color: #0f172a;
+    color: var(--color-text);
 }
 
 .drawerBody {
@@ -544,7 +544,7 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: #64748b;
+    color: var(--color-text-muted);
 }
 
 .fieldInput,

@@ -24,7 +24,7 @@
 
 .subtext {
   font-size: 0.95rem;
-  color: #5a7290;
+  color: var(--color-text-muted);
   margin: 0;
 }
 
@@ -106,7 +106,7 @@
 
 .noSlots {
   font-size: 0.875rem;
-  color: #5a7290;
+  color: var(--color-text-muted);
   margin: 0;
   font-style: italic;
 }
@@ -116,7 +116,7 @@
   background: none;
   border: none;
   cursor: pointer;
-  color: #6b9bbf;
+  color: var(--color-text-muted);
   font-size: 1rem;
   padding: 0;
   line-height: 1;
@@ -196,7 +196,7 @@
 }
 
 .confirmSub {
-  color: #5a7290 !important;
+  color: var(--color-text-muted) !important;
   font-size: 0.875rem !important;
   margin-top: 0.75rem !important;
 }
@@ -261,7 +261,7 @@
   background: none;
   border: none;
   font-size: 1rem;
-  color: #8fa3b8;
+  color: var(--color-text-muted);
   cursor: pointer;
   padding: 0.25rem;
   line-height: 1;
@@ -281,7 +281,7 @@
 
 .modalText {
   font-size: 0.925rem;
-  color: #3d5a73;
+  color: var(--color-text-muted);
   line-height: 1.6;
   margin: 0 0 0.75rem;
 }
@@ -296,7 +296,7 @@
   align-items: flex-start;
   gap: 0.6rem;
   font-size: 0.8rem;
-  color: #5a7290;
+  color: var(--color-text-muted);
   line-height: 1.5;
   cursor: pointer;
 }

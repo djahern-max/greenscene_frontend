@@ -33,7 +33,7 @@
     font-weight: 700;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: #7a98b5;
+    color: var(--color-text-muted);
     padding: 0 16px 10px;
     margin: 0;
 }
@@ -59,7 +59,7 @@
     border: none;
     cursor: pointer;
     font-size: 1.1rem;
-    color: #7a98b5;
+    color: var(--color-text-muted);
     padding: 4px 6px;
     border-radius: 6px;
     line-height: 1;
@@ -80,7 +80,7 @@
     border: none;
     cursor: pointer;
     text-align: left;
-    color: #5a7a95;
+    color: var(--color-text-muted);
     font-size: 12.5px;
     font-family: "DM Sans", sans-serif;
     transition: background 0.12s, color 0.12s;
@@ -108,8 +108,8 @@
     font-size: 10px;
     padding: 1px 7px;
     border-radius: 20px;
-    background: rgba(100, 116, 139, 0.08);
-    color: #7a98b5;
+    background: color-mix(in srgb, var(--color-text-muted) 8%, transparent);
+    color: var(--color-text-muted);
     font-weight: 600;
 }
 
@@ -164,7 +164,7 @@
     border-radius: 7px;
     cursor: pointer;
     padding: 5px 8px;
-    color: #5a7a95;
+    color: var(--color-text-muted);
     font-size: 1rem;
     line-height: 1;
     flex-shrink: 0;
@@ -235,7 +235,7 @@
 }
 
 .searchInput::placeholder {
-    color: #a0b4c8;
+    color: var(--color-text-muted);
 }
 
 .searchBtn {
@@ -262,7 +262,7 @@
     background: none;
     border: 1px solid var(--color-border);
     border-radius: 7px;
-    color: #7a98b5;
+    color: var(--color-text-muted);
     font-size: 11px;
     cursor: pointer;
     font-family: "DM Sans", sans-serif;
@@ -280,7 +280,7 @@
     background: none;
     border: 1px solid var(--color-border);
     border-radius: 7px;
-    color: #7a98b5;
+    color: var(--color-text-muted);
     font-size: 13px;
     cursor: pointer;
     font-family: "DM Sans", sans-serif;
@@ -304,7 +304,7 @@
     background: none;
     border: 1px solid var(--color-border);
     border-radius: 7px;
-    color: #5a7a95;
+    color: var(--color-text-muted);
     font-size: 12px;
     font-weight: 600;
     cursor: pointer;
@@ -327,7 +327,7 @@
 .countLabel {
     margin-left: auto;
     font-size: 12px;
-    color: #7a98b5;
+    color: var(--color-text-muted);
     font-weight: 500;
     flex-shrink: 0;
 }
@@ -337,7 +337,7 @@
     background: none;
     border: 1px solid var(--color-border);
     border-radius: 7px;
-    color: #a0b4c8;
+    color: var(--color-text-muted);
     font-size: 14px;
     cursor: pointer;
     flex-shrink: 0;
@@ -364,7 +364,7 @@
 .filterLabel {
     font-family: "DM Mono", monospace;
     font-size: 11px;
-    color: #7a98b5;
+    color: var(--color-text-muted);
     flex-shrink: 0;
 }
 
@@ -386,7 +386,7 @@
 
 .filterSep {
     font-size: 12px;
-    color: #a0b4c8;
+    color: var(--color-text-muted);
 }
 
 /* ── Scroll + table ── */
@@ -418,7 +418,7 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.06em;
-    color: #7a98b5;
+    color: var(--color-text-muted);
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -471,7 +471,7 @@
 
 .cell {
     font-size: 13px;
-    color: #2e4a65;
+    color: var(--color-text);
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -538,7 +538,7 @@
     background: none;
     border: 1px solid var(--color-border);
     border-radius: 6px;
-    color: #7a98b5;
+    color: var(--color-text-muted);
     font-size: 12px;
     font-weight: 600;
     cursor: pointer;
@@ -625,7 +625,7 @@
 .detailKey {
     font-family: "DM Mono", monospace;
     font-size: 11px;
-    color: #a0b4c8;
+    color: var(--color-text-muted);
     padding-top: 2px;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -705,7 +705,7 @@
 .longText {
     font-family: "DM Mono", monospace;
     font-size: 12px;
-    color: #5a7a95;
+    color: var(--color-text-muted);
     white-space: pre-wrap;
     word-break: break-word;
     background: var(--color-surface-alt);
@@ -754,7 +754,7 @@
     background: none;
     border: 1px solid var(--color-border);
     border-radius: 7px;
-    color: #5a7a95;
+    color: var(--color-text-muted);
     font-size: 12px;
     font-weight: 600;
     cursor: pointer;
@@ -775,24 +775,24 @@
 
 .pgLabel {
     font-size: 12px;
-    color: #7a98b5;
+    color: var(--color-text-muted);
     font-weight: 500;
 }
 
 /* ── Field helpers ── */
 .nullVal {
     font-size: 12px;
-    color: #c8d8e8;
+    color: var(--color-text-muted);
 }
 
 .timestamp {
     font-family: "DM Mono", monospace;
     font-size: 11px;
-    color: #7a98b5;
+    color: var(--color-text-muted);
 }
 
 .truncated {
-    color: #5a7a95;
+    color: var(--color-text-muted);
 }
 
 /* ── Badges ── */
@@ -830,8 +830,8 @@
 }
 
 .badgeGray {
-    background: rgba(100, 116, 139, 0.08);
-    color: #64748b;
+    background: color-mix(in srgb, var(--color-text-muted) 8%, transparent);
+    color: var(--color-text-muted);
 }
 
 /* ── State messages ── */
@@ -839,7 +839,7 @@
     padding: 48px 20px;
     text-align: center;
     font-size: 13px;
-    color: #a0b4c8;
+    color: var(--color-text-muted);
 }
 
 .errorMsg {

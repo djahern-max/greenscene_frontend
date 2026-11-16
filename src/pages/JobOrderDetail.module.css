@@ -6,9 +6,9 @@
     --border: #e2e8f0;
     --blue: var(--color-primary);
     --navy: var(--color-text);
-    --text: #1e293b;
-    --sub: #475569;
-    --muted: #94a3b8;
+    --text: var(--color-text);
+    --sub: var(--color-text-muted);
+    --muted: var(--color-text-muted);
     --radius: 10px;
     --font: 'DM Sans', system-ui, sans-serif;
 

@@ -39,9 +39,6 @@
 
 /* ---------- Shared tokens (do NOT vary by theme) ---------- */
 :root {
-    --text-900: #111827;
-    --text-700: #334155;
-    --text-500: #64748b;
     --border-200: #e2e8f0;
     --container: 1120px;
     --radius: 14px;
@@ -73,15 +70,15 @@ body {
 body {
     margin: 0;
     font-family: var(--font-sans);
-    color: var(--text-900);
+    color: var(--color-text);
     background: var(--bg-50);
 }
 
 /* ---------- Helpers ---------- */
 .ryzeGridBg {
     background:
-        linear-gradient(to right, rgba(148, 163, 184, 0.15) 1px, transparent 1px),
-        linear-gradient(to bottom, rgba(148, 163, 184, 0.15) 1px, transparent 1px);
+        linear-gradient(to right, color-mix(in srgb, var(--color-text-muted) 15%, transparent) 1px, transparent 1px),
+        linear-gradient(to bottom, color-mix(in srgb, var(--color-text-muted) 15%, transparent) 1px, transparent 1px);
     background-size: 80px 80px;
     background-position: center;
 }
@@ -131,7 +128,7 @@ body {
 
 /* Underlined category links */
 .ryzeUnderlineLink {
-    color: var(--text-900);
+    color: var(--color-text);
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-underline-offset: 6px;

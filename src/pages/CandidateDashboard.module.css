@@ -3,7 +3,7 @@
 .page {
   min-height: 100vh;
   background: #f1f5f9;
-  color: #0f172a;
+  color: var(--color-text);
   font-family: 'DM Sans', sans-serif;
 }
 
@@ -54,14 +54,14 @@
   font-family: 'DM Serif Display', serif;
   font-size: 28px;
   font-weight: 400;
-  color: #0f172a;
+  color: var(--color-text);
   margin: 0;
   line-height: 1.2;
 }
 
 .bannerSub {
   font-size: 14px;
-  color: #64748b;
+  color: var(--color-text-muted);
   margin: 0;
 }
 
@@ -136,13 +136,13 @@
 .sectionTitle {
   font-size: 18px;
   font-weight: 700;
-  color: #0f172a;
+  color: var(--color-text);
   margin: 0;
 }
 
 .sectionSub {
   font-size: 13px;
-  color: #64748b;
+  color: var(--color-text-muted);
   margin: 0;
   margin-left: 40px;
 }
@@ -192,7 +192,7 @@
 .callsEmpty {
   padding: 20px;
   text-align: center;
-  color: #94a3b8;
+  color: var(--color-text-muted);
   font-size: 14px;
   background: #fff;
   border: 1px solid #e2e8f0;
@@ -250,23 +250,23 @@
 
 .pill_cancelled {
   background: #f1f5f9;
-  color: #64748b;
+  color: var(--color-text-muted);
 }
 
 .callTitle {
   font-size: 15px;
   font-weight: 600;
-  color: #0f172a;
+  color: var(--color-text);
 }
 
 .callMeta {
   font-size: 13px;
-  color: #64748b;
+  color: var(--color-text-muted);
 }
 
 .callNote {
   font-size: 13px;
-  color: #64748b;
+  color: var(--color-text-muted);
   margin: 0;
 }
 
@@ -325,7 +325,7 @@
   align-items: center;
   gap: 12px;
   padding: 48px 24px;
-  color: #94a3b8;
+  color: var(--color-text-muted);
   font-size: 14px;
 }
 
@@ -375,7 +375,7 @@
   border: 1px solid #e2e8f0;
   border-radius: 12px;
   text-align: center;
-  color: #94a3b8;
+  color: var(--color-text-muted);
   font-size: 14px;
 }
 
@@ -391,14 +391,14 @@
 
 .rolesEmptyIcon {
   font-size: 28px;
-  color: #94a3b8;
+  color: var(--color-text-muted);
 }
 
 .scheduleBtnSm {
   padding: 8px 16px;
   background: transparent;
-  border: 1px solid #cbd5e1;
-  color: #64748b;
+  border: 1px solid var(--color-border);
+  color: var(--color-text-muted);
   border-radius: 8px;
   font-size: 13px;
   cursor: pointer;
@@ -444,7 +444,7 @@
 }
 
 .tier_low {
-  border-left: 4px solid #cbd5e1;
+  border-left: 4px solid var(--color-border);
   /* slate — unchanged */
 }
 
@@ -499,7 +499,7 @@
 
 .scoreBadge_low {
   background: #f1f5f9;
-  color: #64748b;
+  color: var(--color-text-muted);
 }
 
 .topPickBadge {
@@ -534,7 +534,7 @@
 }
 
 .scoreBarFill_low {
-  background: #94a3b8;
+  background: var(--color-text-muted);
 }
 
 /* Card body */
@@ -561,7 +561,7 @@
 .matchTitle {
   font-size: 17px;
   font-weight: 700;
-  color: #0f172a;
+  color: var(--color-text);
   margin: 0;
 }
 
@@ -576,7 +576,7 @@
   align-items: center;
   gap: 5px;
   font-size: 13px;
-  color: #64748b;
+  color: var(--color-text-muted);
 }
 
 
@@ -588,7 +588,7 @@
 
 .matchReqsText {
   font-size: 14px;
-  color: #475569;
+  color: var(--color-text-muted);
   line-height: 1.6;
   margin: 0;
 }
@@ -613,8 +613,8 @@
 .interestBtn {
   padding: 8px 16px;
   background: transparent;
-  border: 1px solid #cbd5e1;
-  color: #64748b;
+  border: 1px solid var(--color-border);
+  color: var(--color-text-muted);
   border-radius: 8px;
   font-size: 13px;
   cursor: pointer;
@@ -642,7 +642,7 @@
   border-radius: 8px;
   font-family: inherit;
   font-size: 13px;
-  color: #0f172a;
+  color: var(--color-text);
   resize: vertical;
 }
 
@@ -681,7 +681,7 @@
 .interestCancelBtn {
   background: none;
   border: none;
-  color: #64748b;
+  color: var(--color-text-muted);
   font-size: 13px;
   cursor: pointer;
   padding: 0;
@@ -772,14 +772,14 @@
 .howItWorksTitle {
   font-size: 22px;
   font-weight: 700;
-  color: #0f172a;
+  color: var(--color-text);
   margin: 0;
 }
 
 .howItWorksText {
   font-size: 14px;
   line-height: 1.7;
-  color: #64748b;
+  color: var(--color-text-muted);
   margin: 0;
   max-width: 720px;
 }
@@ -815,14 +815,14 @@
 .howStep h4 {
   font-size: 14px;
   font-weight: 700;
-  color: #0f172a;
+  color: var(--color-text);
   margin: 0 0 4px;
 }
 
 .howStep p {
   font-size: 13px;
   line-height: 1.5;
-  color: #64748b;
+  color: var(--color-text-muted);
   margin: 0;
 }
 

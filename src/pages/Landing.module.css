@@ -9,7 +9,7 @@
   /* headings & primary text */
   --accent: var(--color-primary);
   /* the logo blue — the only accent */
-  --muted: #5b7690;
+  --muted: var(--color-text-muted);
   /* secondary text */
   --wash: var(--color-surface-alt);
   /* pale sky surfaces */
@@ -66,7 +66,7 @@
   font-family: 'Bricolage Grotesque', 'DM Sans', sans-serif;
   font-size: 0.72rem;
   font-weight: 700;
-  color: #9db3c7;
+  color: var(--color-text-muted);
   text-transform: uppercase;
   letter-spacing: 0.14em;
   margin-left: 12px;
@@ -79,7 +79,7 @@
   display: inline-block;
   width: 1px;
   margin-left: 1px;
-  color: #9db3c7;
+  color: var(--color-text-muted);
   animation: blink 0.8s step-end infinite;
 }
 
@@ -263,7 +263,7 @@
 
 .ctaSub {
   font-size: 0.8rem;
-  color: #9db3c7;
+  color: var(--color-text-muted);
   margin: 14px 0 0;
 }
 
@@ -688,7 +688,7 @@
   margin-top: 14px;
   font-size: 0.8rem;
   font-weight: 500;
-  color: #9db3c7;
+  color: var(--color-text-muted);
   text-decoration: none;
   transition: color 150ms;
 }

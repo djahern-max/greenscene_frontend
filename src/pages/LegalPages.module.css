@@ -9,20 +9,20 @@
 
 .content {
   line-height: 1.7;
-  color: #2d3748;
+  color: var(--color-text);
 }
 
 .content h1 {
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
-  color: #1a202c;
+  color: var(--color-text);
   border-bottom: 3px solid var(--color-primary);
   padding-bottom: 1rem;
 }
 
 .lastUpdated {
-  color: #718096;
+  color: var(--color-text-muted);
   font-size: 0.9rem;
   margin-bottom: 2rem;
   font-style: italic;
@@ -37,7 +37,7 @@
   font-weight: 600;
   margin-top: 2rem;
   margin-bottom: 1rem;
-  color: #2d3748;
+  color: var(--color-text);
 }
 
 .content h3 {
@@ -45,7 +45,7 @@
   font-weight: 600;
   margin-top: 1.5rem;
   margin-bottom: 0.75rem;
-  color: #4a5568;
+  color: var(--color-text-muted);
 }
 
 .content p {
@@ -64,7 +64,7 @@
 
 .content strong {
   font-weight: 600;
-  color: #2d3748;
+  color: var(--color-text);
 }
 
 @media (max-width: 768px) {

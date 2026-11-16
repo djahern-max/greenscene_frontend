@@ -44,7 +44,7 @@
 
 .updated {
   font-size: 0.75rem;
-  color: #64748b;
+  color: var(--color-text-muted);
 }
 
 .close {
@@ -160,7 +160,7 @@
   display: flex;
   align-items: center;
   font-size: 0.85rem;
-  color: #64748b;
+  color: var(--color-text-muted);
   padding: 0.5rem 0;
 }
 
@@ -168,7 +168,7 @@
 
 .empty {
   font-size: 0.85rem;
-  color: #64748b;
+  color: var(--color-text-muted);
   margin: 0;
 }
 

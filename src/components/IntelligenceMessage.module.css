@@ -10,7 +10,7 @@
 .prose {
     font-size: 0.92rem;
     line-height: 1.7;
-    color: var(--text-900);
+    color: var(--color-text);
 }
 
 .prose p {
@@ -72,7 +72,7 @@
 }
 
 .meetingTime {
-    color: var(--text-500);
+    color: var(--color-text-muted);
 }
 
 /* ── See More toggle ── */
@@ -86,7 +86,7 @@
     font-family: inherit;
     font-size: 0.78rem;
     font-weight: 600;
-    color: var(--text-500, #64748b);
+    color: var(--color-text-muted);
     cursor: pointer;
     transition: border-color 150ms, color 150ms, background 150ms;
 }
@@ -144,7 +144,7 @@
 .cardName {
     font-weight: 700;
     font-size: 0.9rem;
-    color: var(--text-900);
+    color: var(--color-text);
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -165,7 +165,7 @@
 
 .cardLocation {
     font-size: 0.78rem;
-    color: var(--text-500);
+    color: var(--color-text-muted);
 }
 
 .cardBadges {

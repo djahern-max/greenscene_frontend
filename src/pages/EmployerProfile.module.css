@@ -17,7 +17,7 @@
     justify-content: center;
     gap: 16px;
     min-height: 60vh;
-    color: var(--text-500);
+    color: var(--color-text-muted);
     font-size: 0.95rem;
 }
 
@@ -112,7 +112,7 @@
     justify-content: center;
     font-size: 2rem;
     font-weight: 700;
-    color: #64748b;
+    color: var(--color-text-muted);
     background: #e2e8f0;
 }
 
@@ -140,7 +140,7 @@
 .identityName {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #0f172a;
+    color: var(--color-text);
     margin: 0 0 2px;
 }
 
@@ -159,14 +159,14 @@
     font-size: 0.85rem;
     font-family: var(--font-sans);
     cursor: pointer;
-    color: #475569;
+    color: var(--color-text-muted);
     transition: background 0.15s, border-color 0.15s;
     white-space: nowrap;
 }
 
 .rawIconButton:hover {
     background: #f1f5f9;
-    border-color: #cbd5e1;
+    border-color: var(--color-border);
 }
 
 /* ══════════════════════════════════════════════════════
@@ -182,7 +182,7 @@
 
 .metaText {
     font-size: 0.85rem;
-    color: #64748b;
+    color: var(--color-text-muted);
 }
 
 .relBadge {
@@ -251,7 +251,7 @@
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 0.7px;
-    color: var(--text-400, #94a3b8);
+    color: var(--color-text-muted);
     padding: 14px 20px 12px;
     border-bottom: 1px solid var(--border-100, #f1f5f9);
     background: var(--bg-50, #f8fafc);
@@ -264,14 +264,14 @@
 /* ── Text ── */
 .overviewText {
     font-size: 0.95rem;
-    color: var(--text-700, #334155);
+    color: var(--color-text);
     line-height: 1.72;
     margin: 0;
 }
 
 .bodyText {
     font-size: 0.875rem;
-    color: var(--text-700, #334155);
+    color: var(--color-text);
     line-height: 1.72;
     margin: 0;
     white-space: pre-wrap;
@@ -288,7 +288,7 @@
 
 .bulletList li {
     font-size: 0.9rem;
-    color: var(--text-700, #334155);
+    color: var(--color-text);
     line-height: 1.55;
 }
 
@@ -307,7 +307,7 @@
     align-items: flex-start;
     gap: 10px;
     font-size: 0.9rem;
-    color: var(--text-700, #334155);
+    color: var(--color-text);
     line-height: 1.55;
 }
 
@@ -366,8 +366,8 @@
     font-size: 0.7rem;
     font-weight: 600;
     background: #f1f5f9;
-    color: #475569;
-    border: 1px solid #cbd5e1;
+    color: var(--color-text-muted);
+    border: 1px solid var(--color-border);
     border-radius: 20px;
     padding: 2px 8px;
     margin-bottom: 10px;
@@ -391,7 +391,7 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.4px;
-    color: var(--text-400, #94a3b8);
+    color: var(--color-text-muted);
     flex-shrink: 0;
     width: 60px;
     padding-top: 1px;
@@ -399,7 +399,7 @@
 
 .infoValue {
     font-size: 0.85rem;
-    color: var(--text-800, #1e293b);
+    color: var(--color-text);
     word-break: break-word;
 }
 
@@ -447,13 +447,13 @@
 .jobTitle {
     font-size: 0.83rem;
     font-weight: 700;
-    color: var(--text-800, #1e293b);
+    color: var(--color-text);
     margin-bottom: 2px;
 }
 
 .jobMeta {
     font-size: 0.75rem;
-    color: var(--text-500, #64748b);
+    color: var(--color-text-muted);
     display: flex;
     align-items: center;
     gap: 5px;
@@ -461,7 +461,7 @@
 }
 
 .metaDot {
-    color: var(--text-300, #cbd5e1);
+    color: var(--color-border);
 }
 
 .jobStatusBadge {

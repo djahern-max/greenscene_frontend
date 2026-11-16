@@ -36,7 +36,7 @@
 .modalTitle {
     font-size: 1.1rem;
     font-weight: 800;
-    color: var(--text-900);
+    color: var(--color-text);
     margin: 0;
     letter-spacing: -0.3px;
 }
@@ -45,7 +45,7 @@
     background: none;
     border: none;
     font-size: 1rem;
-    color: var(--text-400, #94a3b8);
+    color: var(--color-text-muted);
     cursor: pointer;
     padding: 4px 8px;
     border-radius: 6px;
@@ -54,7 +54,7 @@
 
 .closeBtn:hover {
     background: var(--bg-100);
-    color: var(--text-700);
+    color: var(--color-text);
 }
 
 /* ── Tabs ── */
@@ -73,14 +73,14 @@
     font-size: 0.875rem;
     font-weight: 600;
     font-family: var(--font-sans);
-    color: var(--text-500);
+    color: var(--color-text-muted);
     cursor: pointer;
     transition: color 140ms, border-color 140ms;
     margin-bottom: -1px;
 }
 
 .tab:hover {
-    color: var(--text-900);
+    color: var(--color-text);
 }
 
 .tabActive {
@@ -201,13 +201,13 @@
     font-size: 0.875rem;
     font-weight: 600;
     font-family: var(--font-sans);
-    color: var(--text-500);
+    color: var(--color-text-muted);
     cursor: pointer;
     transition: background 140ms, color 140ms;
 }
 
 .parseModeBtn:hover {
-    color: var(--text-900);
+    color: var(--color-text);
 }
 
 .parseModeBtnActive {
@@ -256,7 +256,7 @@
 
 .dropZoneText {
     font-size: 0.9rem;
-    color: var(--text-600, #475569);
+    color: var(--color-text-muted);
     font-weight: 500;
 }
 
@@ -285,7 +285,7 @@
 
 .dropZoneFileName {
     font-weight: 700;
-    color: var(--text-900);
+    color: var(--color-text);
     font-size: 0.9rem;
     word-break: break-all;
 }
@@ -299,7 +299,7 @@
 /* ── Parse Text ── */
 .parseInstructions {
     font-size: 0.875rem;
-    color: var(--text-500);
+    color: var(--color-text-muted);
     margin: 0;
     line-height: 1.6;
     background: var(--color-surface-alt);
@@ -315,7 +315,7 @@
     padding: 12px 14px;
     font-size: 0.875rem;
     font-family: var(--font-sans);
-    color: var(--text-900);
+    color: var(--color-text);
     resize: vertical;
     outline: none;
     transition: border-color 140ms;
@@ -373,7 +373,7 @@
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 0.6px;
-    color: var(--text-500);
+    color: var(--color-text-muted);
     padding-bottom: 8px;
     border-bottom: 1px solid var(--border-100, #f1f5f9);
 }
@@ -410,7 +410,7 @@
 .label {
     font-size: 0.78rem;
     font-weight: 700;
-    color: var(--text-500);
+    color: var(--color-text-muted);
     text-transform: uppercase;
     letter-spacing: 0.4px;
 }
@@ -422,7 +422,7 @@
     border-radius: 8px;
     font-size: 0.875rem;
     font-family: var(--font-sans);
-    color: var(--text-900);
+    color: var(--color-text);
     outline: none;
     transition: border-color 140ms;
 }
@@ -438,7 +438,7 @@
     border-radius: 8px;
     font-size: 0.875rem;
     font-family: var(--font-sans);
-    color: var(--text-900);
+    color: var(--color-text);
     background: white;
     outline: none;
     cursor: pointer;
@@ -459,7 +459,7 @@
     border-radius: 8px;
     font-size: 0.875rem;
     font-family: var(--font-sans);
-    color: var(--text-900);
+    color: var(--color-text);
     outline: none;
     transition: border-color 140ms;
     resize: vertical;
@@ -524,7 +524,7 @@
     outline: none;
     font-size: 0.875rem;
     font-family: var(--font-sans);
-    color: var(--text-900);
+    color: var(--color-text);
     flex: 1;
     min-width: 120px;
     background: transparent;
@@ -537,7 +537,7 @@
 .fieldHint {
     font-size: 0.75rem;
     font-style: italic;
-    color: #64748b;
+    color: var(--color-text-muted);
     margin: 0;
 }
 
@@ -560,7 +560,7 @@
 .cancelBtn {
     background: white;
     border: 1.5px solid var(--border-200);
-    color: var(--text-700);
+    color: var(--color-text);
     border-radius: 9px;
     padding: 9px 20px;
     font-size: 0.875rem;

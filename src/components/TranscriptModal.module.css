@@ -40,13 +40,13 @@
 .title {
     font-size: 1rem;
     font-weight: 700;
-    color: var(--text-900, #0f172a);
+    color: var(--color-text);
 }
 
 .subtitle {
     margin-top: 3px;
     font-size: 0.82rem;
-    color: var(--text-500, #64748b);
+    color: var(--color-text-muted);
 }
 
 .closeBtn {
@@ -54,13 +54,13 @@
     border: none;
     font-size: 1.6rem;
     line-height: 1;
-    color: var(--text-400, #94a3b8);
+    color: var(--color-text-muted);
     cursor: pointer;
     padding: 0 4px;
 }
 
 .closeBtn:hover {
-    color: var(--text-700, #334155);
+    color: var(--color-text);
 }
 
 /* ── Body ── */
@@ -71,7 +71,7 @@
 
 .state {
     font-size: 0.85rem;
-    color: var(--text-400, #94a3b8);
+    color: var(--color-text-muted);
     font-style: italic;
     padding: 16px 0;
 }
@@ -98,7 +98,7 @@
     margin: 0;
     font-size: 0.87rem;
     line-height: 1.6;
-    color: var(--text-800, #1e293b);
+    color: var(--color-text);
 }
 
 /* ── Turns ── */
@@ -123,7 +123,7 @@
     margin: 0;
     font-size: 0.9rem;
     line-height: 1.65;
-    color: var(--text-800, #1e293b);
+    color: var(--color-text);
 }
 
 /* Speaker colour slots, assigned in order of appearance */

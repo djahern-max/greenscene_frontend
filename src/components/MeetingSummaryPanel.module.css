@@ -46,13 +46,13 @@
   cursor: pointer;
   padding: 4px 6px;
   border-radius: 4px;
-  color: #64748b;
+  color: var(--color-text-muted);
   font-size: 14px;
   transition: color 120ms, background 120ms;
 }
 
 .close:hover {
-  color: #1e293b;
+  color: var(--color-text);
   background: rgba(0, 0, 0, 0.06);
 }
 
@@ -81,12 +81,12 @@
 
 .metaValue {
   font-size: 0.8rem;
-  color: var(--text-700);
+  color: var(--color-text);
 }
 
 .text {
   font-size: 0.875rem;
-  color: var(--text-900);
+  color: var(--color-text);
   line-height: 1.6;
   white-space: pre-wrap;
   margin: 0;

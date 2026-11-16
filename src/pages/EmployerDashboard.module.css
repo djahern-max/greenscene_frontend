@@ -3,7 +3,7 @@
 .page {
   min-height: 100vh;
   background: #f1f5f9;
-  color: #0f172a;
+  color: var(--color-text);
   font-family: 'DM Sans', sans-serif;
 }
 
@@ -54,14 +54,14 @@
   font-family: 'DM Serif Display', serif;
   font-size: 28px;
   font-weight: 400;
-  color: #64748b;
+  color: var(--color-text-muted);
   margin: 0;
   line-height: 1.2;
 }
 
 .companyLine {
   font-size: 14px;
-  color: #64748b;
+  color: var(--color-text-muted);
   margin: 0;
 }
 
@@ -89,13 +89,13 @@
 .sectionTitle {
   font-size: 18px;
   font-weight: 700;
-  color: #0f172a;
+  color: var(--color-text);
   margin: 0;
 }
 
 .sectionSub {
   font-size: 13px;
-  color: #64748b;
+  color: var(--color-text-muted);
   margin: 0;
 }
 
@@ -137,7 +137,7 @@
 .jobTitle {
   font-size: 16px;
   font-weight: 700;
-  color: #0f172a;
+  color: var(--color-text);
   margin: 0;
 }
 
@@ -152,7 +152,7 @@
   align-items: center;
   gap: 5px;
   font-size: 13px;
-  color: #64748b;
+  color: var(--color-text-muted);
 }
 
 .jobOpenBadge {
@@ -177,7 +177,7 @@
 
 .jobReqsText {
   font-size: 13px;
-  color: #475569;
+  color: var(--color-text-muted);
   line-height: 1.6;
   margin: 0;
 }
@@ -223,7 +223,7 @@
   gap: 7px;
   font-size: 12px;
   font-weight: 700;
-  color: #64748b;
+  color: var(--color-text-muted);
   text-transform: uppercase;
   letter-spacing: 0.07em;
 }
@@ -244,7 +244,7 @@
 .candidateToggleBtn {
   background: none;
   border: none;
-  color: #94a3b8;
+  color: var(--color-text-muted);
   font-size: 12px;
   cursor: pointer;
   padding: 0;
@@ -252,7 +252,7 @@
 }
 
 .candidateToggleBtn:hover {
-  color: #475569;
+  color: var(--color-text-muted);
 }
 
 /* Loading / empty */
@@ -260,7 +260,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  color: #94a3b8;
+  color: var(--color-text-muted);
   font-size: 13px;
 }
 
@@ -304,7 +304,7 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  color: #94a3b8;
+  color: var(--color-text-muted);
   font-size: 13px;
   font-style: italic;
 }
@@ -337,7 +337,7 @@
   flex-shrink: 0;
   font-size: 11px;
   font-weight: 700;
-  color: #cbd5e1;
+  color: var(--color-text-muted);
   text-align: center;
 }
 
@@ -352,7 +352,7 @@
 .candidateName {
   font-size: 14px;
   font-weight: 700;
-  color: #0f172a;
+  color: var(--color-text);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -360,7 +360,7 @@
 
 .candidateTitle {
   font-size: 12px;
-  color: #64748b;
+  color: var(--color-text-muted);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -382,7 +382,7 @@
 
 .level_junior {
   background: #f1f5f9;
-  color: #475569;
+  color: var(--color-text-muted);
 }
 
 .level_mid {
@@ -412,7 +412,7 @@
 .yearsTag {
   padding: 2px 8px;
   background: #f1f5f9;
-  color: #64748b;
+  color: var(--color-text-muted);
   border-radius: 999px;
   font-size: 11px;
   font-weight: 500;
@@ -441,7 +441,7 @@
 
 .score_low {
   background: #f1f5f9;
-  color: #64748b;
+  color: var(--color-text-muted);
 }
 
 /* CTA */
@@ -452,8 +452,8 @@
 .requestBtn {
   padding: 9px 16px;
   background: transparent;
-  border: 1px solid #cbd5e1;
-  color: #475569;
+  border: 1px solid var(--color-border);
+  color: var(--color-text-muted);
   border-radius: 8px;
   font-size: 13px;
   font-weight: 600;
@@ -471,7 +471,7 @@
 .callsEmpty {
   padding: 20px;
   text-align: center;
-  color: #94a3b8;
+  color: var(--color-text-muted);
   font-size: 14px;
   background: #fff;
   border: 1px solid #e2e8f0;
@@ -529,18 +529,18 @@
 
 .pill_cancelled {
   background: #f1f5f9;
-  color: #64748b;
+  color: var(--color-text-muted);
 }
 
 .callTitle {
   font-size: 15px;
   font-weight: 600;
-  color: #0f172a;
+  color: var(--color-text);
 }
 
 .callMeta {
   font-size: 13px;
-  color: #64748b;
+  color: var(--color-text-muted);
 }
 
 .rebookLink {
@@ -652,7 +652,7 @@
   margin: 0;
   font-size: 14px;
   line-height: 1.6;
-  color: #475569;
+  color: var(--color-text-muted);
 }
 
 /* ── Responsive ─────────────────────────────────────────────────────────── */
