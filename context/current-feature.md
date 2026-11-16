@@ -189,6 +189,6 @@ Decisions already made by Dane (2026-11-15) — do not reopen:
   ("GREENSCENE, LLC" / "Greenscene, LLC"). `CLAUDE.md` diff approved,
   including the GUARDRAIL-list wording "powered by Greenscene", with a sixth
   pre-deploy blocker added: attorney review of both legal pages. Legal pages
-  and docs committed separately and pushed to `origin/main`. Not archived —
+  and docs committed separately (`7c4acbe`, `01af8a1`) and pushed to `origin/main`. Not archived —
   Dane's browser checklist is still open.
 
