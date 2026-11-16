@@ -23,7 +23,7 @@
 .logo {
     font-size: 1.25rem;
     font-weight: 800;
-    color: #0a66c2;
+    color: var(--color-primary);
     letter-spacing: -0.5px;
     margin-bottom: 28px;
 }
@@ -76,7 +76,7 @@
 .planBadge {
     font-size: 0.7rem;
     font-weight: 700;
-    color: #0a66c2;
+    color: var(--color-primary);
     background: #e8f2fc;
     border-radius: 100px;
     padding: 2px 10px;
@@ -131,7 +131,7 @@
 .upgradeBtn {
     width: 100%;
     padding: 14px;
-    background: #0a66c2;
+    background: var(--color-primary);
     color: #ffffff;
     border: none;
     border-radius: 8px;
@@ -146,7 +146,7 @@
 }
 
 .upgradeBtn:hover:not(:disabled) {
-    background: #0958a8;
+    background: var(--color-primary-hover);
 }
 
 .upgradeBtn:disabled {
@@ -155,7 +155,7 @@
 }
 
 .upgradeBtnLoading {
-    background: #0958a8;
+    background: var(--color-primary-hover);
 }
 
 .logoutLink {

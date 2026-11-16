@@ -67,7 +67,7 @@
 .logo {
   font-size: 1.2rem;
   font-weight: 900;
-  color: var(--brand-800);
+  color: var(--color-primary);
   letter-spacing: -0.5px;
 }
 
@@ -125,7 +125,7 @@
 }
 
 .navLinkActive {
-  color: var(--brand-800);
+  color: var(--color-primary);
   background: #eff6ff;
   font-weight: 600;
 }
@@ -464,7 +464,7 @@
 
 .websiteLink {
   font-size: 11px;
-  color: #57a0d3;
+  color: var(--color-primary);
   text-decoration: none;
   word-break: break-all;
   display: block;
@@ -475,7 +475,7 @@
 }
 
 .emailLink {
-  color: var(--brand-800);
+  color: var(--color-primary);
   text-decoration: none;
   font-size: 13px;
 }
@@ -524,7 +524,7 @@
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  color: var(--brand-800);
+  color: var(--color-primary);
   font-weight: 600;
   font-size: 13px;
   text-decoration: none;
@@ -640,7 +640,7 @@
 .iconBtnAi:hover {
   background: #eff6ff;
   transform: translateY(-1px);
-  filter: drop-shadow(0 3px 8px rgba(10, 102, 194, 0.4));
+  filter: drop-shadow(0 3px 8px color-mix(in srgb, var(--color-primary) 40%, transparent));
 }
 
 .iconBtnSummary:hover {
@@ -650,7 +650,7 @@
 
 .iconBtnActive {
   background: #eff6ff;
-  filter: drop-shadow(0 0 6px rgba(10, 102, 194, 0.5));
+  filter: drop-shadow(0 0 6px color-mix(in srgb, var(--color-primary) 50%, transparent));
 }
 
 .iconBtnCancel:hover {
@@ -949,14 +949,14 @@
 }
 
 .toggleBtn:hover {
-  border-color: var(--brand-800);
-  color: var(--brand-800);
+  border-color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 .toggleBtnActive {
-  border-color: var(--brand-800);
+  border-color: var(--color-primary);
   background: #eff6ff;
-  color: var(--brand-800);
+  color: var(--color-primary);
 }
 
 /* ── Form Fields ─────────────────────────────────────── */
@@ -1009,8 +1009,8 @@
 
 .fieldInput:focus {
   outline: none;
-  border-color: var(--brand-800);
-  box-shadow: 0 0 0 3px rgba(10, 102, 194, 0.1);
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-primary) 10%, transparent);
 }
 
 .fieldInput::placeholder {
@@ -1034,8 +1034,8 @@
 
 .fieldTextarea:focus {
   outline: none;
-  border-color: var(--brand-800);
-  box-shadow: 0 0 0 3px rgba(10, 102, 194, 0.1);
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-primary) 10%, transparent);
 }
 
 .fieldTextarea::placeholder {
@@ -1073,13 +1073,13 @@
 
 .timeSlotBtn:hover {
   background: #eff6ff;
-  border-color: var(--brand-800);
-  color: var(--brand-800);
+  border-color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 .timeSlotBtnActive {
-  background: var(--brand-800);
-  border-color: var(--brand-800);
+  background: var(--color-primary);
+  border-color: var(--color-primary);
   color: white;
 }
 
@@ -1120,19 +1120,19 @@
   padding: 8px 20px;
   border-radius: 8px;
   border: none;
-  background: var(--brand-800);
+  background: var(--color-primary);
   color: white;
   font-size: 13px;
   font-weight: 700;
   font-family: var(--font-sans);
   cursor: pointer;
-  box-shadow: 0 2px 8px rgba(10, 102, 194, 0.25);
+  box-shadow: 0 2px 8px color-mix(in srgb, var(--color-primary) 25%, transparent);
   transition: background 130ms, box-shadow 130ms, transform 130ms;
 }
 
 .modalSubmitBtn:hover:not(:disabled) {
-  background: #004182;
-  box-shadow: 0 4px 14px rgba(10, 102, 194, 0.4);
+  background: var(--color-primary-hover);
+  box-shadow: 0 4px 14px color-mix(in srgb, var(--color-primary) 40%, transparent);
   transform: translateY(-1px);
 }
 
@@ -1373,7 +1373,7 @@
 .meetingLinkUrl {
   font-size: 13px;
   font-family: var(--font-mono, monospace);
-  color: var(--brand-800);
+  color: var(--color-primary);
   word-break: break-all;
   line-height: 1.4;
 }
@@ -1385,7 +1385,7 @@
   padding: 8px 16px;
   border-radius: 8px;
   border: none;
-  background: var(--brand-800);
+  background: var(--color-primary);
   color: white;
   font-size: 13px;
   font-weight: 700;
@@ -1395,7 +1395,7 @@
 }
 
 .copyBtn:hover {
-  background: #004182;
+  background: var(--color-primary-hover);
 }
 
 .copyBtnCopied {

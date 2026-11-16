@@ -41,7 +41,7 @@
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: var(--blue, #2563eb);
+    background: var(--color-primary);
     animation: bounce 1.2s ease-in-out infinite;
 }
 
@@ -78,7 +78,7 @@
 .backLink {
     background: none;
     border: none;
-    color: var(--blue, #2563eb);
+    color: var(--color-primary);
     cursor: pointer;
     font-size: 14px;
     padding: 0;
@@ -105,7 +105,7 @@
 }
 
 .backBtn:hover {
-    color: var(--blue, #2563eb);
+    color: var(--color-primary);
 }
 
 /* ══════════════════════════════════════════════════════
@@ -273,7 +273,7 @@
 }
 
 .rawIconButton:hover:not(:disabled) .actionGlyph {
-    color: var(--blue, #2563eb);
+    color: var(--color-primary);
 }
 
 /* ══════════════════════════════════════════════════════
@@ -439,7 +439,7 @@
 
 .detailLink {
     font-size: 13px;
-    color: var(--blue, #2563eb);
+    color: var(--color-primary);
     text-decoration: none;
     font-weight: 500;
     word-break: break-word;
@@ -452,7 +452,7 @@
 .inlineUploadBtn {
     background: none;
     border: none;
-    color: var(--blue, #2563eb);
+    color: var(--color-primary);
     font-size: 13px;
     font-weight: 500;
     cursor: pointer;
@@ -499,7 +499,7 @@
 }
 
 .fieldInput:focus {
-    border-color: var(--blue, #2563eb);
+    border-color: var(--color-primary);
 }
 
 /* ══════════════════════════════════════════════════════

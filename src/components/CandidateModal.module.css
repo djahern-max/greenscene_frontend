@@ -84,8 +84,8 @@
 }
 
 .tabActive {
-    color: var(--brand-800);
-    border-bottom-color: var(--brand-800);
+    color: var(--color-primary);
+    border-bottom-color: var(--color-primary);
 }
 
 /* ── Body ── */
@@ -212,7 +212,7 @@
 
 .parseModeBtnActive {
     background: white;
-    color: var(--brand-800);
+    color: var(--color-primary);
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
 }
 
@@ -228,12 +228,12 @@
 }
 
 .dropZone:hover {
-    border-color: var(--brand-400, #57a0d3);
+    border-color: var(--color-primary);
     background: #f0f9ff;
 }
 
 .dropZoneActive {
-    border-color: var(--brand-800);
+    border-color: var(--color-primary);
     background: #eff6ff;
 }
 
@@ -261,7 +261,7 @@
 }
 
 .dropZoneBrowse {
-    color: var(--brand-800);
+    color: var(--color-primary);
     text-decoration: underline;
     cursor: pointer;
 }
@@ -323,11 +323,11 @@
 }
 
 .parseTextarea:focus {
-    border-color: var(--brand-800);
+    border-color: var(--color-primary);
 }
 
 .parseBtn {
-    background: var(--brand-800);
+    background: var(--color-primary);
     color: white;
     border: none;
     border-radius: 10px;
@@ -385,7 +385,7 @@
     letter-spacing: 0;
     background: #f0f9ff;
     border: 1px solid #bae6fd;
-    color: #0369a1;
+    color: var(--color-primary);
     padding: 2px 8px;
     border-radius: 20px;
 }
@@ -428,7 +428,7 @@
 }
 
 .input:focus {
-    border-color: var(--brand-800);
+    border-color: var(--color-primary);
 }
 
 .select {
@@ -450,7 +450,7 @@
 }
 
 .select:focus {
-    border-color: var(--brand-800);
+    border-color: var(--color-primary);
 }
 
 .textarea {
@@ -467,7 +467,7 @@
 }
 
 .textarea:focus {
-    border-color: var(--brand-800);
+    border-color: var(--color-primary);
 }
 
 /* ── Skills ── */
@@ -485,7 +485,7 @@
 }
 
 .skillsWrapper:focus-within {
-    border-color: var(--brand-800);
+    border-color: var(--color-primary);
 }
 
 .skillTag {
@@ -493,7 +493,7 @@
     align-items: center;
     gap: 4px;
     background: #dbeafe;
-    color: #1e40af;
+    color: var(--color-primary);
     border: 1px solid #bfdbfe;
     border-radius: 20px;
     padding: 3px 10px;
@@ -505,7 +505,7 @@
 .skillRemove {
     background: none;
     border: none;
-    color: #3b82f6;
+    color: var(--color-primary);
     cursor: pointer;
     font-size: 0.9rem;
     line-height: 1;
@@ -516,7 +516,7 @@
 }
 
 .skillRemove:hover {
-    color: #1e40af;
+    color: var(--color-primary-hover);
 }
 
 .skillInput {
@@ -575,7 +575,7 @@
 }
 
 .saveBtn {
-    background: var(--brand-800);
+    background: var(--color-primary);
     color: white;
     border: none;
     border-radius: 9px;

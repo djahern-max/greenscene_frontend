@@ -7,7 +7,7 @@
 .page {
   --ink: #0d2137;
   /* headings & primary text */
-  --accent: #004aad;
+  --accent: var(--color-primary);
   /* the logo blue — the only accent */
   --muted: #5b7690;
   /* secondary text */
@@ -150,7 +150,7 @@
 }
 
 .navCta:hover {
-  background: #003b8a;
+  background: var(--color-primary-hover);
 }
 
 .navCta:focus-visible {
@@ -182,7 +182,7 @@
   font-size: clamp(5.5rem, 11vw, 8.5rem);
   font-weight: 800;
   letter-spacing: -0.04em;
-  color: rgba(0, 74, 173, 0.05);
+  color: var(--color-border);
   line-height: 1;
   white-space: nowrap;
   pointer-events: none;
@@ -252,7 +252,7 @@
 }
 
 .ctaPrimary:hover {
-  background: #003b8a;
+  background: var(--color-primary-hover);
   transform: translateY(-1px);
 }
 
@@ -302,7 +302,7 @@
   position: absolute;
   inset: -40px -80px 20px;
   background: radial-gradient(ellipse at center,
-      rgba(0, 74, 173, 0.1) 0%,
+      color-mix(in srgb, var(--color-primary) 10%, transparent) 0%,
       rgba(238, 245, 252, 0.6) 45%,
       transparent 72%);
   z-index: 0;
@@ -320,7 +320,7 @@
   border-radius: 16px;
   box-shadow:
     0 2px 6px rgba(13, 33, 55, 0.05),
-    0 24px 60px -12px rgba(0, 74, 173, 0.18);
+    0 24px 60px -12px color-mix(in srgb, var(--color-primary) 18%, transparent);
   overflow: hidden;
 }
 
@@ -358,7 +358,7 @@
   width: 84px;
   height: 84px;
   border-radius: 50%;
-  background: rgba(0, 74, 173, 0.85);
+  background: color-mix(in srgb, var(--color-primary) 85%, transparent);
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
   transition: transform 150ms, background 150ms;
 }
@@ -406,7 +406,7 @@
   border-radius: 16px;
   box-shadow:
     0 2px 6px rgba(13, 33, 55, 0.05),
-    0 24px 60px -12px rgba(0, 74, 173, 0.18);
+    0 24px 60px -12px color-mix(in srgb, var(--color-primary) 18%, transparent);
   overflow: hidden;
   transition: opacity 500ms;
   text-align: left;
@@ -735,7 +735,7 @@
   .hero::before {
     font-size: 4rem;
     top: 14px;
-    color: rgba(0, 74, 173, 0.045);
+    color: var(--color-border);
   }
 
   .ctaPrimary {

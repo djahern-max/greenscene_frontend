@@ -74,7 +74,7 @@
     gap: 5px;
     font-size: 0.75rem;
     font-weight: 700;
-    color: #0a66c2;
+    color: var(--color-primary);
     background: #eff6ff;
     border: 1.5px solid #bfdbfe;
     border-radius: 20px;
@@ -97,7 +97,7 @@
 
 .embedAllMsg {
     font-size: 0.75rem;
-    color: #0a66c2;
+    color: var(--color-primary);
     font-style: italic;
 }
 
@@ -149,7 +149,7 @@
 }
 
 .searchInput:focus {
-    border-color: var(--brand-800);
+    border-color: var(--color-primary);
 }
 
 .clearSearch {
@@ -226,7 +226,7 @@
 
 .linkedinLink {
     font-size: 0.78rem;
-    color: var(--brand-700);
+    color: var(--color-primary-hover);
     text-decoration: none;
 }
 
@@ -338,14 +338,14 @@
 .embedConfirmText {
     font-size: 0.75rem;
     font-weight: 600;
-    color: #0a66c2;
+    color: var(--color-primary);
     white-space: nowrap;
 }
 
 .embedConfirmYes {
     font-size: 0.72rem;
     font-weight: 700;
-    background: #0a66c2;
+    background: var(--color-primary);
     color: white;
     border: none;
     border-radius: 5px;
@@ -356,7 +356,7 @@
 }
 
 .embedConfirmYes:hover {
-    background: #004182;
+    background: var(--color-primary-hover);
 }
 
 .embedConfirmNo {
@@ -380,7 +380,7 @@
 .expandBtn {
     background: #f0f9ff;
     border: 1.5px solid #7dd3fc;
-    color: #0369a1;
+    color: var(--color-primary);
     border-radius: 8px;
     padding: 5px 12px;
     font-size: 0.78rem;
@@ -398,8 +398,8 @@
 
 .expandBtnActive {
     background: #dbeafe;
-    border-color: #2563eb;
-    color: #1e40af;
+    border-color: var(--color-primary);
+    color: var(--color-primary);
 }
 
 /* ── Actions ── */
@@ -454,7 +454,7 @@
 
 .detailPanel {
     background: #f0f9ff;
-    border-left: 4px solid #3b82f6;
+    border-left: 4px solid var(--color-primary);
     padding: 1.25rem 1.5rem;
     display: flex;
     flex-direction: column;
@@ -485,7 +485,7 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    color: #0a66c2;
+    color: var(--color-primary);
 }
 
 .detailContent {
@@ -504,7 +504,7 @@
 .tag {
     display: inline-block;
     background: #dbeafe;
-    color: #1e40af;
+    color: var(--color-primary);
     border: 1px solid #bfdbfe;
     border-radius: 20px;
     padding: 3px 10px;

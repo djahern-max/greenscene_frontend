@@ -14,7 +14,7 @@
 .backBtn {
     background: none;
     border: none;
-    color: var(--brand-600, #2563eb);
+    color: var(--color-primary);
     font-size: 14px;
     cursor: pointer;
     padding: 0;
@@ -91,8 +91,8 @@
 
 .input:focus {
     outline: none;
-    border-color: #2563eb;
-    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-primary) 10%, transparent);
 }
 
 .input:disabled {
@@ -128,7 +128,7 @@
 }
 
 .submitBtn:hover:not(:disabled) {
-    background: #2563eb;
+    background: var(--color-primary-hover);
 }
 
 .submitBtn:disabled {
@@ -251,6 +251,6 @@
 }
 
 .resetBtn:hover {
-    border-color: #2563eb;
-    color: #2563eb;
+    border-color: var(--color-primary);
+    color: var(--color-primary);
 }

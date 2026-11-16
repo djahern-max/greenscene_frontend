@@ -94,8 +94,8 @@
 
 .tableBtnActive {
     background: #edf4fb;
-    color: #0a66c2;
-    border-left-color: #0a66c2;
+    color: var(--color-primary);
+    border-left-color: var(--color-primary);
     font-weight: 600;
 }
 
@@ -114,8 +114,8 @@
 }
 
 .tableCountActive {
-    background: rgba(10, 102, 194, 0.1);
-    color: #0a66c2;
+    background: color-mix(in srgb, var(--color-primary) 10%, transparent);
+    color: var(--color-primary);
 }
 
 /* ── Overlay backdrop (mobile only) ── */
@@ -229,8 +229,8 @@
 }
 
 .searchInput:focus {
-    border-color: #0a66c2;
-    box-shadow: 0 0 0 3px rgba(10, 102, 194, 0.08);
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-primary) 8%, transparent);
     background: #ffffff;
 }
 
@@ -240,8 +240,8 @@
 
 .searchBtn {
     padding: 6px 13px;
-    background: #0a66c2;
-    border: 1px solid #0a66c2;
+    background: var(--color-primary);
+    border: 1px solid var(--color-primary);
     border-radius: 7px;
     color: #ffffff;
     font-size: 13px;
@@ -253,8 +253,8 @@
 }
 
 .searchBtn:hover {
-    background: #004182;
-    border-color: #004182;
+    background: var(--color-primary-hover);
+    border-color: var(--color-primary-hover);
 }
 
 .clearBtn {
@@ -294,9 +294,9 @@
 }
 
 .filterToggleBtnActive {
-    background: rgba(10, 102, 194, 0.07);
+    background: color-mix(in srgb, var(--color-primary) 7%, transparent);
     border-color: #b0cce8;
-    color: #0a66c2;
+    color: var(--color-primary);
 }
 
 .exportBtn {
@@ -315,7 +315,7 @@
 
 .exportBtn:hover:not(:disabled) {
     background: #f0f5fb;
-    color: #0a66c2;
+    color: var(--color-primary);
     border-color: #b0cce8;
 }
 
@@ -345,7 +345,7 @@
 }
 
 .refreshBtn:hover {
-    color: #0a66c2;
+    color: var(--color-primary);
     background: #f0f5fb;
 }
 
@@ -381,7 +381,7 @@
 }
 
 .filterInput:focus {
-    border-color: #0a66c2;
+    border-color: var(--color-primary);
 }
 
 .filterSep {
@@ -431,12 +431,12 @@
 }
 
 .colLabelSortable:hover {
-    color: #0a66c2;
+    color: var(--color-primary);
 }
 
 .sortIndicator {
     font-size: 10px;
-    color: #0a66c2;
+    color: var(--color-primary);
     font-weight: 700;
 }
 
@@ -459,7 +459,7 @@
 
 .rowExpanded {
     background: #edf4fb;
-    border-left: 3px solid #0a66c2;
+    border-left: 3px solid var(--color-primary);
 }
 
 .rowSummary {
@@ -496,10 +496,10 @@
 
 .editBtn {
     padding: 5px 12px;
-    background: rgba(10, 102, 194, 0.07);
-    border: 1px solid rgba(10, 102, 194, 0.2);
+    background: color-mix(in srgb, var(--color-primary) 7%, transparent);
+    border: 1px solid color-mix(in srgb, var(--color-primary) 20%, transparent);
     border-radius: 6px;
-    color: #0a66c2;
+    color: var(--color-primary);
     font-size: 12px;
     font-weight: 600;
     cursor: pointer;
@@ -508,13 +508,13 @@
 }
 
 .editBtn:hover {
-    background: rgba(10, 102, 194, 0.12);
+    background: color-mix(in srgb, var(--color-primary) 12%, transparent);
 }
 
 .saveBtn {
     padding: 5px 14px;
-    background: #0a66c2;
-    border: 1px solid #0a66c2;
+    background: var(--color-primary);
+    border: 1px solid var(--color-primary);
     border-radius: 6px;
     color: #ffffff;
     font-size: 12px;
@@ -525,7 +525,7 @@
 }
 
 .saveBtn:hover:not(:disabled) {
-    background: #004182;
+    background: var(--color-primary-hover);
 }
 
 .saveBtn:disabled {
@@ -633,7 +633,7 @@
 }
 
 .detailKeyEditing {
-    color: #0a66c2;
+    color: var(--color-primary);
     font-weight: 700;
 }
 
@@ -659,8 +659,8 @@
 }
 
 .editInput:focus {
-    border-color: #0a66c2;
-    box-shadow: 0 0 0 2px rgba(10, 102, 194, 0.1);
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 2px color-mix(in srgb, var(--color-primary) 10%, transparent);
 }
 
 .editTextarea {
@@ -680,14 +680,14 @@
 }
 
 .editTextarea:focus {
-    border-color: #0a66c2;
-    box-shadow: 0 0 0 2px rgba(10, 102, 194, 0.1);
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 2px color-mix(in srgb, var(--color-primary) 10%, transparent);
 }
 
 /* ── Long text / expand ── */
 .expandBtn {
     font-size: 11px;
-    color: #0a66c2;
+    color: var(--color-primary);
     background: none;
     border: none;
     padding: 0;
@@ -723,7 +723,7 @@
     background: none;
     border: none;
     padding: 0;
-    color: #0a66c2;
+    color: var(--color-primary);
     font-size: 12px;
     font-weight: 600;
     font-family: "DM Mono", monospace;
@@ -764,7 +764,7 @@
 
 .pgBtn:hover:not(:disabled) {
     background: #f0f5fb;
-    color: #0a66c2;
+    color: var(--color-primary);
     border-color: #b8cfe8;
 }
 
@@ -810,8 +810,8 @@
 }
 
 .badgeBlue {
-    background: rgba(10, 102, 194, 0.1);
-    color: #0a66c2;
+    background: color-mix(in srgb, var(--color-primary) 10%, transparent);
+    color: var(--color-primary);
 }
 
 .badgeAmber {

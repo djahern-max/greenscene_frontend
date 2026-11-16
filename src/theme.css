@@ -32,21 +32,9 @@
 
 /* ---------- Legacy tokens (being replaced by the role tokens above) ---------- */
 :root {
-    /* LinkedIn-inspired Palette */
-    --linkedin-blue: #0a66c2;
-    --deep-blue: #004182;
     --light-blue: #dbe7f2;
-    --accent-blue: #57a0d3;
 
-    /* Map to design system tokens */
-    --brand-800: var(--linkedin-blue);
-    /* Primary buttons */
-    --brand-700: var(--deep-blue);
-    /* Hover states / headlines */
-    --brand-600: var(--accent-blue);
-    /* Light accent / links */
-
-    /* Backgrounds - Facebook style */
+    /* Backgrounds */
     --bg-50: #f1f5f9;
     --bg-100: #e4e6eb;
 }
@@ -121,13 +109,13 @@ body {
 }
 
 .ryzeBtnPrimary {
-    background: var(--brand-800);
+    background: var(--color-primary);
     color: white;
     box-shadow: var(--shadow-sm);
 }
 
 .ryzeBtnPrimary:hover {
-    background: var(--brand-700);
+    background: var(--color-primary-hover);
     transform: translateY(-1px);
 }
 
@@ -137,7 +125,7 @@ body {
     align-items: center;
     font-weight: 800;
     color: white;
-    background: var(--brand-800);
+    background: var(--color-primary);
     border-radius: 10px;
     padding: 10px 14px;
     box-shadow: var(--shadow-sm);
@@ -152,6 +140,6 @@ body {
 }
 
 .ryzeUnderlineLink:hover {
-    color: var(--brand-700);
-    text-decoration-color: var(--brand-700);
+    color: var(--color-primary-hover);
+    text-decoration-color: var(--color-primary-hover);
 }

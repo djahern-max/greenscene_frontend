@@ -213,7 +213,7 @@
 }
 
 .titleLink:hover {
-    color: #0a66c2;
+    color: var(--color-primary);
     text-decoration: underline;
 }
 
@@ -256,7 +256,7 @@
 }
 
 .viewBtn {
-    color: #0a66c2;
+    color: var(--color-primary);
 }
 
 .viewBtn:hover {
@@ -324,7 +324,7 @@
 
 .cardEmployer {
     font-size: 0.82rem;
-    color: #0a66c2;
+    color: var(--color-primary);
     font-weight: 500;
     margin-bottom: 4px;
 }
@@ -371,7 +371,7 @@
 .emptyCreateBtn {
     background: none;
     border: none;
-    color: #0a66c2;
+    color: var(--color-primary);
     font-weight: 600;
     cursor: pointer;
     font-family: var(--font-sans);
@@ -564,7 +564,7 @@
 .fieldInput:focus,
 .fieldSelect:focus {
     outline: none;
-    border-color: #0a66c2;
+    border-color: var(--color-primary);
 }
 
 .fieldTextarea {
@@ -583,7 +583,7 @@
 
 .fieldTextarea:focus {
     outline: none;
-    border-color: #0a66c2;
+    border-color: var(--color-primary);
 }
 
 .drawerError {

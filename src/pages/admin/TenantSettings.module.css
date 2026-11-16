@@ -83,7 +83,7 @@
 .firmName {
     font-size: 14px;
     font-weight: 700;
-    color: var(--brand-800, #1d4ed8);
+    color: var(--color-primary);
 }
 
 /* ── Fields ── */
@@ -114,8 +114,8 @@
 
 .input:focus {
     outline: none;
-    border-color: var(--brand-800, #1d4ed8);
-    box-shadow: 0 0 0 3px rgba(29, 78, 216, 0.12);
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-primary) 12%, transparent);
 }
 
 .input:disabled {
@@ -168,7 +168,7 @@
     font-weight: 700;
     font-family: var(--font-sans);
     color: #ffffff;
-    background: var(--brand-800, #1d4ed8);
+    background: var(--color-primary);
     border: none;
     border-radius: 9px;
     cursor: pointer;
@@ -176,7 +176,7 @@
 }
 
 .saveBtn:hover:not(:disabled) {
-    background: var(--brand-900, #1e40af);
+    background: var(--color-primary-hover);
 }
 
 .saveBtn:disabled {

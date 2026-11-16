@@ -17,7 +17,7 @@
   font-weight: 700;
   margin-bottom: 0.5rem;
   color: #1a202c;
-  border-bottom: 3px solid #667eea;
+  border-bottom: 3px solid var(--color-primary);
   padding-bottom: 1rem;
 }
 

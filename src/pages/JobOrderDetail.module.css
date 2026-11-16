@@ -4,7 +4,7 @@
     --bg: #f1f5f9;
     --card: #ffffff;
     --border: #e2e8f0;
-    --blue: #0a66c2;
+    --blue: var(--color-primary);
     --navy: #1e3a5f;
     --text: #1e293b;
     --sub: #475569;
@@ -209,7 +209,7 @@
 }
 
 .employerLink:hover {
-    color: #004182;
+    color: var(--color-primary-hover);
     text-decoration: underline;
 }
 
@@ -417,7 +417,7 @@
 }
 
 .matchName:hover {
-    color: #004182;
+    color: var(--color-primary-hover);
     text-decoration: underline;
 }
 
@@ -502,7 +502,7 @@
 }
 
 .infoLink:hover {
-    color: #004182;
+    color: var(--color-primary-hover);
     text-decoration: underline;
 }
 

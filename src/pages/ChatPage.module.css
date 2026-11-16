@@ -50,7 +50,7 @@
     padding: 8px 12px;
     font-size: 0.875rem;
     font-weight: 600;
-    color: var(--brand-800);
+    color: var(--color-primary);
     cursor: pointer;
     transition: background 140ms;
     font-family: var(--font-sans);
@@ -116,7 +116,7 @@
 
 .sessionItemActive {
     background: var(--brand-50, #eff6ff);
-    color: var(--brand-800);
+    color: var(--color-primary);
 }
 
 .sessionTitle {
@@ -129,7 +129,7 @@
 }
 
 .sessionItemActive .sessionTitle {
-    color: var(--brand-800);
+    color: var(--color-primary);
     font-weight: 600;
 }
 
@@ -307,7 +307,7 @@
 }
 
 .bubbleUser {
-    background: var(--brand-800);
+    background: var(--color-primary);
     color: white;
     border-bottom-right-radius: 4px;
 }
@@ -448,7 +448,7 @@
     font-size: 0.72rem;
     font-weight: 700;
     background: #dbeafe;
-    color: #1e40af;
+    color: var(--color-primary);
     border: 1px solid #bfdbfe;
     border-radius: 20px;
     padding: 2px 8px;
@@ -504,7 +504,7 @@
 
 .tagCert {
     background: #eff6ff;
-    color: #1e40af;
+    color: var(--color-primary);
     border: 1px solid #bfdbfe;
 }
 
@@ -526,7 +526,7 @@
     align-self: flex-start;
     font-size: 0.78rem;
     font-weight: 700;
-    color: var(--brand-800);
+    color: var(--color-primary);
     text-decoration: none;
     margin-top: 4px;
     padding: 4px 10px;
@@ -585,7 +585,7 @@
 .zoomLink {
     font-size: 0.78rem;
     font-weight: 600;
-    color: var(--brand-800);
+    color: var(--color-primary);
     text-decoration: none;
 }
 
@@ -622,7 +622,7 @@
 }
 
 .inputWrapper:focus-within {
-    border-color: var(--brand-800);
+    border-color: var(--color-primary);
 }
 
 .input {
@@ -652,7 +652,7 @@
     width: 34px;
     height: 34px;
     border-radius: 10px;
-    background: var(--brand-800);
+    background: var(--color-primary);
     color: white;
     border: none;
     font-size: 1rem;
@@ -705,7 +705,7 @@
     padding: 4px 0 0 0;
     font-size: 0.78rem;
     font-weight: 600;
-    color: #0a66c2;
+    color: var(--color-primary);
     cursor: pointer;
     font-family: inherit;
 }

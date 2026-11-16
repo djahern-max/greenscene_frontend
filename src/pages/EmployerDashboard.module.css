@@ -185,7 +185,7 @@
 .jobToggle {
   background: none;
   border: none;
-  color: #2563eb;
+  color: var(--color-primary);
   font-size: 13px;
   cursor: pointer;
   padding: 0;
@@ -273,7 +273,7 @@
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: #2563eb;
+  background: var(--color-primary);
   animation: dotPulse 1.4s ease-in-out infinite both;
 }
 
@@ -462,8 +462,8 @@
 }
 
 .requestBtn:hover {
-  border-color: #2563eb;
-  color: #2563eb;
+  border-color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 /* ── Calls ──────────────────────────────────────────────────────────────── */
@@ -546,7 +546,7 @@
 .rebookLink {
   background: none;
   border: none;
-  color: #2563eb;
+  color: var(--color-primary);
   font-size: 13px;
   cursor: pointer;
   padding: 0;
@@ -558,7 +558,7 @@
   align-items: center;
   gap: 8px;
   padding: 8px 16px;
-  background: #2563eb;
+  background: var(--color-primary);
   color: #fff;
   border-radius: 8px;
   font-size: 13px;
@@ -568,7 +568,7 @@
 }
 
 .zoomButton:hover {
-  background: #1d4ed8;
+  background: var(--color-primary-hover);
 }
 
 .zoomIcon {
@@ -636,7 +636,7 @@
 }
 
 .profileBtn:hover {
-  background: #2563eb;
+  background: var(--color-primary-hover);
 }
 
 .intro {

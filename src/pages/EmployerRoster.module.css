@@ -106,7 +106,7 @@
     padding: 0;
     font-size: 0.875rem;
     font-weight: 700;
-    color: var(--brand-700);
+    color: var(--color-primary-hover);
     text-decoration: none;
     cursor: pointer;
     font-family: var(--font-sans);
@@ -117,7 +117,7 @@
 }
 
 .companyNameLink:hover {
-    color: var(--brand-700);
+    color: var(--color-primary-hover);
     text-decoration: underline;
 }
 
@@ -134,7 +134,7 @@
 
 .websiteLink {
     font-size: 0.78rem;
-    color: var(--brand-700);
+    color: var(--color-primary-hover);
     text-decoration: none;
     display: block;
 }
@@ -144,7 +144,7 @@
 }
 
 .emailLink {
-    color: var(--brand-700);
+    color: var(--color-primary-hover);
     text-decoration: none;
     font-size: 0.83rem;
 }
@@ -184,7 +184,7 @@
 .expandBtn {
     background: #f0f9ff;
     border: 1.5px solid #7dd3fc;
-    color: #0369a1;
+    color: var(--color-primary);
     border-radius: 8px;
     padding: 5px 12px;
     font-size: 0.78rem;
@@ -202,9 +202,9 @@
 
 .expandBtnActive {
     background: #dbeafe;
-    border-color: #2563eb;
+    border-color: var(--color-primary);
     border-width: 2px;
-    color: #1e40af;
+    color: var(--color-primary);
 }
 
 /* ── Detail Panel ────────────────────────────────────── */
@@ -219,7 +219,7 @@
 
 .detailPanel {
     background: #f0f9ff;
-    border-left: 4px solid #3b82f6;
+    border-left: 4px solid var(--color-primary);
     padding: 1.25rem 1.5rem;
     display: flex;
     flex-direction: column;
@@ -250,7 +250,7 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    color: #0a66c2;
+    color: var(--color-primary);
 }
 
 .detailContent {
@@ -267,7 +267,7 @@
 
 .tag {
     background: #dbeafe;
-    color: #1e40af;
+    color: var(--color-primary);
     border: 1px solid #bfdbfe;
     border-radius: 20px;
     padding: 0.2rem 0.7rem;
@@ -314,7 +314,7 @@
 
 .notesDisplay:hover {
     background: white;
-    border-color: #3b82f6;
+    border-color: var(--color-primary);
 }
 
 .notesPlaceholder {
@@ -330,7 +330,7 @@
 
 .notesTextarea {
     width: 100%;
-    border: 1.5px solid #3b82f6;
+    border: 1.5px solid var(--color-primary);
     border-radius: 6px;
     padding: 0.6rem 0.75rem;
     font-size: 0.85rem;
@@ -348,7 +348,7 @@
 }
 
 .saveBtn {
-    background: #3b82f6;
+    background: var(--color-primary);
     color: white;
     border: none;
     border-radius: 7px;
@@ -361,7 +361,7 @@
 }
 
 .saveBtn:hover:not(:disabled) {
-    background: #2563eb;
+    background: var(--color-primary-hover);
 }
 
 .saveBtn:disabled {
@@ -451,7 +451,7 @@
 
 .cardWebsite {
     font-size: 0.78rem;
-    color: var(--brand-700);
+    color: var(--color-primary-hover);
     margin-bottom: 5px;
 }
 

@@ -30,7 +30,7 @@
 .logo {
     font-size: 1.2rem;
     font-weight: 900;
-    color: var(--brand-800);
+    color: var(--color-primary);
     letter-spacing: -0.5px;
     cursor: pointer;
 }
@@ -81,7 +81,7 @@
 }
 
 .navLinkActive {
-    color: var(--brand-800);
+    color: var(--color-primary);
     background: #eff6ff;
     font-weight: 600;
 }
@@ -234,7 +234,7 @@
 }
 
 .mobileNavLinkActive {
-    color: var(--brand-800);
+    color: var(--color-primary);
     background: #eff6ff;
     font-weight: 600;
 }
@@ -317,7 +317,7 @@
 }
 
 .settingsBtn:hover {
-    color: #0a66c2;
+    color: var(--color-primary);
     background: #f0f5fb;
 }
 

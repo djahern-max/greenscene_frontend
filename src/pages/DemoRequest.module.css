@@ -23,7 +23,7 @@
 }
 
 .logo {
-  color: var(--brand-800, #1e3a5f);
+  color: var(--color-primary);
   font-size: 1.25rem;
   font-weight: 800;
   letter-spacing: -0.5px;
@@ -95,8 +95,8 @@
 .formGroup input:focus,
 .formGroup textarea:focus {
   outline: none;
-  border-color: #0a66c2;
-  box-shadow: 0 0 0 3px rgba(10, 102, 194, 0.1);
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-primary) 10%, transparent);
 }
 
 /* ── Honeypot ──────────────────────────────────────────────────
@@ -114,7 +114,7 @@
 }
 
 .submitButton {
-  background: var(--brand-800, #1e3a5f);
+  background: var(--color-primary);
   color: #ffffff;
   border: none;
   padding: 10px 1rem;
@@ -130,9 +130,9 @@
 }
 
 .submitButton:hover:not(:disabled) {
-  background: #0a66c2;
+  background: var(--color-primary);
   transform: translateY(-1px);
-  box-shadow: 0 6px 20px rgba(10, 102, 194, 0.3);
+  box-shadow: 0 6px 20px color-mix(in srgb, var(--color-primary) 30%, transparent);
 }
 
 .submitButton:active:not(:disabled) {

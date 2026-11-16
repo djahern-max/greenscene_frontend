@@ -20,7 +20,7 @@
 
 .iconOnlyBtn:hover {
     transform: scale(1.08) translateY(-2px);
-    filter: drop-shadow(0 6px 14px rgba(10, 102, 194, 0.2));
+    filter: drop-shadow(0 6px 14px color-mix(in srgb, var(--color-primary) 20%, transparent));
 }
 
 .iconOnlyBtn:active {
@@ -80,20 +80,20 @@
 
 /* Variants */
 .primary {
-    background: var(--brand-800, #0a66c2);
+    background: var(--color-primary);
     color: #ffffff;
-    box-shadow: 0 2px 8px rgba(10, 102, 194, 0.25);
+    box-shadow: 0 2px 8px color-mix(in srgb, var(--color-primary) 25%, transparent);
 }
 
 .primary:hover {
-    background: var(--brand-700, #004182);
-    box-shadow: 0 4px 14px rgba(10, 102, 194, 0.35);
+    background: var(--color-primary-hover);
+    box-shadow: 0 4px 14px color-mix(in srgb, var(--color-primary) 35%, transparent);
 }
 
 .secondary {
     background: #ffffff;
-    color: var(--brand-800, #0a66c2);
-    border: 1.5px solid var(--brand-800, #0a66c2);
+    color: var(--color-primary);
+    border: 1.5px solid var(--color-primary);
 }
 
 .secondary:hover {
@@ -102,7 +102,7 @@
 
 .ghost {
     background: transparent;
-    color: var(--brand-800, #0a66c2);
+    color: var(--color-primary);
     border: none;
     box-shadow: none;
     padding-left: 0;
@@ -112,7 +112,7 @@
 }
 
 .ghost:hover {
-    color: var(--brand-700, #004182);
+    color: var(--color-primary-hover);
 }
 
 /* Sizes */

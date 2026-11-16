@@ -74,7 +74,7 @@
     border: 1px solid #bfdbfe;
     padding: 2px 8px;
     background: #eff6ff;
-    color: #1e40af;
+    color: var(--color-primary);
 }
 
 .viewProfileBtn {
@@ -82,7 +82,7 @@
     font-family: inherit;
     font-size: 0.78rem;
     font-weight: 600;
-    color: var(--brand-600, #0a66c2);
+    color: var(--color-primary);
     background: none;
     border: 1px solid var(--brand-200, #bfdbfe);
     border-radius: 7px;
@@ -94,5 +94,5 @@
 
 .viewProfileBtn:hover {
     background: var(--brand-50, #eff6ff);
-    border-color: var(--brand-400, #3b82f6);
+    border-color: var(--color-primary);
 }

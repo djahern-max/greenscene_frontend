@@ -24,7 +24,7 @@
 .streamCursor {
     display: inline-block;
     animation: blink 0.9s steps(1) infinite;
-    color: var(--brand-500, #0a66c2);
+    color: var(--color-primary);
     font-weight: 300;
     margin-left: 2px;
 }
@@ -92,8 +92,8 @@
 }
 
 .seeMoreBtn:hover {
-    border-color: var(--brand-400, #3b82f6);
-    color: var(--brand-600, #0a66c2);
+    border-color: var(--color-primary);
+    color: var(--color-primary);
     background: var(--brand-50, #eff6ff);
 }
 
@@ -191,7 +191,7 @@
     border: 1px solid #bfdbfe;
     padding: 2px 8px;
     background: #eff6ff;
-    color: #1e40af;
+    color: var(--color-primary);
 }
 
 /* ── View Profile button ── */
@@ -200,7 +200,7 @@
     font-family: inherit;
     font-size: 0.78rem;
     font-weight: 600;
-    color: var(--brand-600, #0a66c2);
+    color: var(--color-primary);
     background: none;
     border: 1px solid var(--brand-200, #bfdbfe);
     border-radius: 7px;
@@ -212,7 +212,7 @@
 
 .viewProfileBtn:hover {
     background: var(--brand-50, #eff6ff);
-    border-color: var(--brand-400, #3b82f6);
+    border-color: var(--color-primary);
 }
 
 .transcriptLink {
@@ -222,7 +222,7 @@
     font-family: inherit;
     font-size: 0.85rem;
     font-weight: 600;
-    color: var(--brand-600, #0a66c2);
+    color: var(--color-primary);
     cursor: pointer;
 }
 

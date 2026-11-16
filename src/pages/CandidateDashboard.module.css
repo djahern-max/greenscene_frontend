@@ -40,7 +40,7 @@
   display: inline-block;
   padding: 4px 12px;
   background: #eff6ff;
-  color: #2563eb;
+  color: var(--color-primary);
   border: 1px solid #bfdbfe;
   border-radius: 999px;
   font-size: 12px;
@@ -76,7 +76,7 @@
   align-items: center;
   gap: 8px;
   padding: 10px 18px;
-  background: #2563eb;
+  background: var(--color-primary);
   color: #fff;
   border: none;
   border-radius: 10px;
@@ -88,7 +88,7 @@
 }
 
 .scheduleBtn:hover {
-  background: #1d4ed8;
+  background: var(--color-primary-hover);
 }
 
 /* ── Sections ───────────────────────────────────────────────────────────── */
@@ -273,7 +273,7 @@
 .rebookLink {
   background: none;
   border: none;
-  color: #2563eb;
+  color: var(--color-primary);
   font-size: 13px;
   cursor: pointer;
   padding: 0;
@@ -285,7 +285,7 @@
   align-items: center;
   gap: 8px;
   padding: 8px 16px;
-  background: #2563eb;
+  background: var(--color-primary);
   color: #fff;
   border-radius: 8px;
   font-size: 13px;
@@ -295,7 +295,7 @@
 }
 
 .zoomButton:hover {
-  background: #1d4ed8;
+  background: var(--color-primary-hover);
 }
 
 .zoomIcon {
@@ -338,7 +338,7 @@
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #2563eb;
+  background: var(--color-primary);
   animation: dotPulse 1.4s ease-in-out infinite both;
 }
 
@@ -406,8 +406,8 @@
 }
 
 .scheduleBtnSm:hover {
-  border-color: #2563eb;
-  color: #2563eb;
+  border-color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 /* ── Match list & cards ─────────────────────────────────────────────────── */
@@ -433,7 +433,7 @@
 }
 
 .tier_high {
-  border-left: 4px solid #0a66c2;
+  border-left: 4px solid var(--color-primary);
   /* linkedin-blue */
   background: #fafcff;
 }
@@ -488,7 +488,7 @@
 
 .scoreBadge_high {
   background: #dbeafe;
-  color: #004182;
+  color: var(--color-primary);
   /* deep-blue for strong contrast */
 }
 
@@ -526,7 +526,7 @@
 }
 
 .scoreBarFill_high {
-  background: #0a66c2;
+  background: var(--color-primary);
 }
 
 .scoreBarFill_mid {
@@ -596,7 +596,7 @@
 .matchToggle {
   background: none;
   border: none;
-  color: #2563eb;
+  color: var(--color-primary);
   font-size: 13px;
   cursor: pointer;
   padding: 0;
@@ -622,8 +622,8 @@
 }
 
 .interestBtn:hover {
-  border-color: #2563eb;
-  color: #2563eb;
+  border-color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 .interestBox {
@@ -648,7 +648,7 @@
 
 .interestTextarea:focus {
   outline: none;
-  border-color: #2563eb;
+  border-color: var(--color-primary);
 }
 
 .interestActions {
@@ -659,7 +659,7 @@
 
 .interestSendBtn {
   padding: 7px 16px;
-  background: #2563eb;
+  background: var(--color-primary);
   color: #fff;
   border: none;
   border-radius: 8px;
@@ -670,7 +670,7 @@
 }
 
 .interestSendBtn:hover:not(:disabled) {
-  background: #1d4ed8;
+  background: var(--color-primary-hover);
 }
 
 .interestSendBtn:disabled {
@@ -760,7 +760,7 @@
   width: fit-content;
   padding: 4px 12px;
   background: #eff6ff;
-  color: #2563eb;
+  color: var(--color-primary);
   border: 1px solid #bfdbfe;
   border-radius: 999px;
   font-size: 12px;
@@ -808,7 +808,7 @@
   height: 34px;
   flex-shrink: 0;
   background: #eff6ff;
-  color: #2563eb;
+  color: var(--color-primary);
   border-radius: 10px;
 }
 

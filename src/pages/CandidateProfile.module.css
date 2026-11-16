@@ -10,8 +10,8 @@
     --card: #ffffff;
     --bannerCard: #fdfeff;
     --border: #e2e8f0;
-    --blue: #0a66c2;
-    --blue-h: #004182;
+    --blue: var(--color-primary);
+    --blue-h: var(--color-primary-hover);
     --navy: #0f2444;
     --navy2: #1e3a5f;
     --text: #1e293b;
@@ -594,8 +594,8 @@
     font-size: 0.72rem;
     font-weight: 700;
     border-radius: 20px;
-    background: #1d4ed8;
-    border: 1px solid #3b82f6;
+    background: var(--color-primary);
+    border: 1px solid var(--color-primary);
     color: #fff;
     padding: 3px 11px;
 }
