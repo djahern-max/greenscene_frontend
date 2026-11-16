@@ -1,8 +1,36 @@
 /* =====================================================
-   RYZE.ai Design System
+   Greenscene colour system
+
+   Every palette colour is set once, in the first :root block below,
+   and referenced everywhere else as var(--color-...). To change a
+   palette colour, edit its one line here.
+
+   Tokens are named by role, not by colour. Translucent versions are
+   made with color-mix(), e.g.
+     color-mix(in srgb, var(--color-primary) 10%, transparent)
    ===================================================== */
 
-/* ---------- Theme: Professional LinkedIn Style ---------- */
+/* ---------- Palette (role tokens) ---------- */
+:root {
+    /* Primary buttons, links, highlights; success status pills share it */
+    --color-primary: #15803D;
+    /* Button hover states, darker brand accents */
+    --color-primary-hover: #166534;
+    /* Headlines and main text; also the dark surface (table heads, footers) */
+    --color-text: #172B24;
+    /* Descriptions, captions, supporting text, placeholders */
+    --color-text-muted: #5F7168;
+    /* Cards, main surfaces, text on primary */
+    --color-surface: #FFFFFF;
+    /* Page background behind cards, alternate sections, soft fills */
+    --color-surface-alt: #EFF7F1;
+    /* Borders, dividers, hover fills, the landing-page watermark */
+    --color-border: #DCEADF;
+    /* Mid-tone hover border, derived from the primary (no new hex) */
+    --color-border-accent: color-mix(in srgb, var(--color-primary) 45%, var(--color-surface));
+}
+
+/* ---------- Legacy tokens (being replaced by the role tokens above) ---------- */
 :root {
     /* LinkedIn-inspired Palette */
     --linkedin-blue: #0a66c2;
