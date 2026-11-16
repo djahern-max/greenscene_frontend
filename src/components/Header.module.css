@@ -126,7 +126,7 @@
 
 .settingsBtn:hover {
   color: var(--color-primary);
-  background: #f0f5fb;
+  background: var(--color-surface-alt);
 }
 
 /* ── Responsive ────────────────────────────────────── */

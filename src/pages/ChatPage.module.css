@@ -115,7 +115,7 @@
 }
 
 .sessionItemActive {
-    background: var(--brand-50, #eff6ff);
+    background: var(--color-surface-alt);
     color: var(--color-primary);
 }
 
@@ -405,8 +405,8 @@
 
 /* ── Candidate card ── */
 .candidateCard {
-    background: #f8faff;
-    border: 1.5px solid #bfdbfe;
+    background: var(--color-surface-alt);
+    border: 1.5px solid var(--color-border);
     border-radius: 10px;
     padding: 12px 14px;
     display: flex;
@@ -447,9 +447,9 @@
 .cardScore {
     font-size: 0.72rem;
     font-weight: 700;
-    background: #dbeafe;
+    background: var(--color-surface-alt);
     color: var(--color-primary);
-    border: 1px solid #bfdbfe;
+    border: 1px solid var(--color-border);
     border-radius: 20px;
     padding: 2px 8px;
     white-space: nowrap;
@@ -503,9 +503,9 @@
 }
 
 .tagCert {
-    background: #eff6ff;
+    background: var(--color-surface-alt);
     color: var(--color-primary);
-    border: 1px solid #bfdbfe;
+    border: 1px solid var(--color-border);
 }
 
 .tagYears {
@@ -530,21 +530,22 @@
     text-decoration: none;
     margin-top: 4px;
     padding: 4px 10px;
-    border: 1px solid #bfdbfe;
+    border: 1px solid var(--color-border);
     border-radius: 6px;
     background: white;
     transition: background 140ms, border-color 140ms;
 }
 
 .cardProfileLink:hover {
-    background: #dbeafe;
-    border-color: #93c5fd;
+    background: var(--color-border);
+    color: var(--color-primary-hover);
+    border-color: var(--color-border-accent);
 }
 
 /* ── Meeting card ── */
 .meetingCard {
-    background: #f8faff;
-    border: 1.5px solid #bfdbfe;
+    background: var(--color-surface-alt);
+    border: 1.5px solid var(--color-border);
     border-radius: 10px;
     padding: 12px 14px;
     display: flex;

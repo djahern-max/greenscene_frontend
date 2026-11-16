@@ -78,7 +78,7 @@
 
 /* ── AI summary block ── */
 .summary {
-    background: var(--brand-50, #eff6ff);
+    background: var(--color-surface-alt);
     border-left: 3px solid var(--color-primary);
     border-radius: 0 8px 8px 0;
     padding: 12px 16px;

@@ -1,7 +1,7 @@
 /* src/components/IntelligenceBrief.module.css */
 
 .panel {
-  background: #f0f9ff;
+  background: var(--color-surface-alt);
   border-left: 4px solid var(--color-primary);
   padding: 1.25rem 1.5rem;
   width: 100%;
@@ -123,9 +123,9 @@
 }
 
 .tag {
-  background: #dbeafe;
+  background: var(--color-surface-alt);
   color: var(--color-primary);
-  border: 1px solid #bfdbfe;
+  border: 1px solid var(--color-border);
   border-radius: 20px;
   padding: 0.2rem 0.7rem;
   font-size: 0.78rem;
@@ -176,7 +176,7 @@
 @media (max-width: 768px) {
   .panel {
     border-left: none;
-    border-top: 2px solid #bfdbfe;
+    border-top: 2px solid var(--color-border);
   }
 
   .twoCol {

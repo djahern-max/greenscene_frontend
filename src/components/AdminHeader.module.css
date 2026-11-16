@@ -82,12 +82,12 @@
 
 .navLinkActive {
     color: var(--color-primary);
-    background: #eff6ff;
+    background: var(--color-surface-alt);
     font-weight: 600;
 }
 
 .navLinkActive:hover {
-    background: #dbeafe !important;
+    background: var(--color-border) !important;
 }
 
 /* ── Header right ── */
@@ -235,7 +235,7 @@
 
 .mobileNavLinkActive {
     color: var(--color-primary);
-    background: #eff6ff;
+    background: var(--color-surface-alt);
     font-weight: 600;
 }
 
@@ -318,7 +318,7 @@
 
 .settingsBtn:hover {
     color: var(--color-primary);
-    background: #f0f5fb;
+    background: var(--color-surface-alt);
 }
 
 /* ── Responsive breakpoints ── */

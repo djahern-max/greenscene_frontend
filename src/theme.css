@@ -32,8 +32,6 @@
 
 /* ---------- Legacy tokens (being replaced by the role tokens above) ---------- */
 :root {
-    --light-blue: #dbe7f2;
-
     /* Backgrounds */
     --bg-50: #f1f5f9;
     --bg-100: #e4e6eb;

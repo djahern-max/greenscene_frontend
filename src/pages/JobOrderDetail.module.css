@@ -233,9 +233,9 @@
 .matchCountBadge {
     font-size: 0.75rem;
     font-weight: 600;
-    background: #eff6ff;
+    background: var(--color-surface-alt);
     color: var(--color-text);
-    border: 1px solid #bfdbfe;
+    border: 1px solid var(--color-border);
     border-radius: 20px;
     padding: 3px 10px;
 }
@@ -613,7 +613,8 @@
 }
 
 .viewEmployerBtn:hover {
-    background: #eff6ff;
+    background: var(--color-border);
+    color: var(--color-primary-hover);
 }
 
 

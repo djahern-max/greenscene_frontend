@@ -126,12 +126,12 @@
 
 .navLinkActive {
   color: var(--color-primary);
-  background: #eff6ff;
+  background: var(--color-surface-alt);
   font-weight: 600;
 }
 
 .navLinkActive:hover {
-  background: #dbeafe !important;
+  background: var(--color-border) !important;
 }
 
 .navLinkSoon {
@@ -405,7 +405,7 @@
   padding: 10px 14px;
   font-size: 11px;
   font-weight: 700;
-  color: #93c5fd;
+  color: var(--color-border);
   text-transform: uppercase;
   letter-spacing: 0.06em;
   white-space: nowrap;
@@ -425,11 +425,11 @@
 }
 
 .row:hover {
-  background: #f8faff;
+  background: var(--color-surface-alt);
 }
 
 .rowExpanded {
-  background: #f5f9ff !important;
+  background: var(--color-surface-alt) !important;
 }
 
 .table td {
@@ -440,12 +440,12 @@
 
 /* Expanded rows */
 .expandedRow {
-  background: #f5f9ff;
+  background: var(--color-surface-alt);
 }
 
 .expandedCell {
   padding: 0 !important;
-  border-bottom: 2px solid #bfdbfe;
+  border-bottom: 2px solid var(--color-border);
 }
 
 /* Cell styles */
@@ -638,18 +638,18 @@
 }
 
 .iconBtnAi:hover {
-  background: #eff6ff;
+  background: var(--color-surface-alt);
   transform: translateY(-1px);
   filter: drop-shadow(0 3px 8px color-mix(in srgb, var(--color-primary) 40%, transparent));
 }
 
 .iconBtnSummary:hover {
-  background: #eff6ff;
+  background: var(--color-surface-alt);
   transform: translateY(-1px);
 }
 
 .iconBtnActive {
-  background: #eff6ff;
+  background: var(--color-surface-alt);
   filter: drop-shadow(0 0 6px color-mix(in srgb, var(--color-primary) 50%, transparent));
 }
 
@@ -955,7 +955,7 @@
 
 .toggleBtnActive {
   border-color: var(--color-primary);
-  background: #eff6ff;
+  background: var(--color-surface-alt);
   color: var(--color-primary);
 }
 
@@ -1072,7 +1072,7 @@
 }
 
 .timeSlotBtn:hover {
-  background: #eff6ff;
+  background: var(--color-surface-alt);
   border-color: var(--color-primary);
   color: var(--color-primary);
 }

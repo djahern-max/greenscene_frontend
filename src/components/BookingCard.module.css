@@ -2,7 +2,7 @@
 
 .card {
   background: #ffffff;
-  border: 1px solid #e0e7ef;
+  border: 1px solid var(--color-border);
   border-radius: 16px;
   padding: 2rem 2.5rem;
   margin-bottom: 2rem;
@@ -52,7 +52,7 @@
 
 .input,
 .textarea {
-  border: 1.5px solid #c9d8e8;
+  border: 1.5px solid var(--color-border);
   border-radius: 8px;
   padding: 0.6rem 0.85rem;
   font-size: 0.95rem;
@@ -82,8 +82,8 @@
 }
 
 .timeBtn {
-  background: #f0f5fb;
-  border: 1.5px solid #c9d8e8;
+  background: var(--color-surface-alt);
+  border: 1.5px solid var(--color-border);
   border-radius: 8px;
   padding: 0.45rem 0.85rem;
   font-size: 0.875rem;
@@ -94,7 +94,7 @@
 }
 
 .timeBtn:hover {
-  background: #ddeaf7;
+  background: var(--color-border);
   border-color: var(--color-primary-hover);
 }
 

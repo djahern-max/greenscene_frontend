@@ -97,7 +97,7 @@
 }
 
 .secondary:hover {
-    background: var(--light-blue, #dbe7f2);
+    background: var(--color-surface-alt);
 }
 
 .ghost {

@@ -94,7 +94,7 @@
 .seeMoreBtn:hover {
     border-color: var(--color-primary);
     color: var(--color-primary);
-    background: var(--brand-50, #eff6ff);
+    background: var(--color-surface-alt);
 }
 
 /* ── Cards section ── */
@@ -122,7 +122,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 12px;
-    background: var(--surface-50, #f8faff);
+    background: var(--color-surface-alt);
     border: 1.5px solid var(--border-100, #e2e8f0);
     border-radius: 10px;
     padding: 12px 14px;
@@ -130,7 +130,7 @@
 }
 
 .resultCard:hover {
-    border-color: var(--brand-300, #93c5fd);
+    border-color: var(--color-border-accent);
 }
 
 .cardMain {
@@ -188,9 +188,9 @@
     font-size: 0.7rem;
     font-weight: 700;
     border-radius: 20px;
-    border: 1px solid #bfdbfe;
+    border: 1px solid var(--color-border);
     padding: 2px 8px;
-    background: #eff6ff;
+    background: var(--color-surface-alt);
     color: var(--color-primary);
 }
 
@@ -202,7 +202,7 @@
     font-weight: 600;
     color: var(--color-primary);
     background: none;
-    border: 1px solid var(--brand-200, #bfdbfe);
+    border: 1px solid var(--color-border);
     border-radius: 7px;
     padding: 5px 12px;
     cursor: pointer;
@@ -211,7 +211,7 @@
 }
 
 .viewProfileBtn:hover {
-    background: var(--brand-50, #eff6ff);
+    background: var(--color-surface-alt);
     border-color: var(--color-primary);
 }
 
