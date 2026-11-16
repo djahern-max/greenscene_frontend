@@ -12,7 +12,7 @@
 }
 
 .modal {
-    background: white;
+    background: var(--color-surface);
     border-radius: 16px;
     width: 100%;
     max-width: 680px;
@@ -158,7 +158,7 @@
 }
 
 .duplicateDismiss {
-    background: white;
+    background: var(--color-surface);
     border: 1.5px solid #fcd34d;
     color: #92400e;
     border-radius: 8px;
@@ -211,7 +211,7 @@
 }
 
 .parseModeBtnActive {
-    background: white;
+    background: var(--color-surface);
     color: var(--color-primary);
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
 }
@@ -328,7 +328,7 @@
 
 .parseBtn {
     background: var(--color-primary);
-    color: white;
+    color: var(--color-surface);
     border: none;
     border-radius: 10px;
     padding: 11px 24px;
@@ -439,7 +439,7 @@
     font-size: 0.875rem;
     font-family: var(--font-sans);
     color: var(--color-text);
-    background: white;
+    background: var(--color-surface);
     outline: none;
     cursor: pointer;
     transition: border-color 140ms;
@@ -558,7 +558,7 @@
 }
 
 .cancelBtn {
-    background: white;
+    background: var(--color-surface);
     border: 1.5px solid var(--color-border);
     color: var(--color-text);
     border-radius: 9px;
@@ -576,7 +576,7 @@
 
 .saveBtn {
     background: var(--color-primary);
-    color: white;
+    color: var(--color-surface);
     border: none;
     border-radius: 9px;
     padding: 9px 24px;
@@ -608,7 +608,7 @@
     width: 14px;
     height: 14px;
     border: 2px solid rgba(255, 255, 255, 0.35);
-    border-top-color: white;
+    border-top-color: var(--color-surface);
     border-radius: 50%;
     animation: spin 0.7s linear infinite;
 }

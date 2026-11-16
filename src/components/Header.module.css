@@ -98,7 +98,7 @@
   height: 32px;
   border-radius: 7px;
   border: 1px solid var(--color-border);
-  background: white;
+  background: var(--color-surface);
   color: var(--text-400);
   font-size: 14px;
   cursor: pointer;

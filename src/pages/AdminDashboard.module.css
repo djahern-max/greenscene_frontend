@@ -37,7 +37,7 @@
    HEADER
    ══════════════════════════════════════════════════════ */
 .header {
-  background: #ffffff;
+  background: var(--color-surface);
   border-bottom: 1px solid var(--color-border);
   padding: 0 24px;
   position: sticky;
@@ -162,7 +162,7 @@
   height: 32px;
   border-radius: 7px;
   border: 1px solid var(--color-border);
-  background: white;
+  background: var(--color-surface);
   color: var(--text-400);
   font-size: 14px;
   cursor: pointer;
@@ -289,7 +289,7 @@
 }
 
 .statCard {
-  background: white;
+  background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: 12px;
   padding: 16px 20px;
@@ -380,7 +380,7 @@
    DESKTOP TABLE
    ══════════════════════════════════════════════════════ */
 .tableWrapper {
-  background: white;
+  background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: 12px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
@@ -674,7 +674,7 @@
   border: none;
   font-family: var(--font-sans);
   background: #16a34a;
-  color: white;
+  color: var(--color-surface);
   box-shadow: 0 1px 4px rgba(22, 163, 74, 0.3);
   transition: background 140ms, box-shadow 140ms, transform 140ms;
   white-space: nowrap;
@@ -716,7 +716,7 @@
 
 .deleteBtn:hover {
   background: #dc2626;
-  color: white;
+  color: var(--color-surface);
   transform: translateY(-1px);
 }
 
@@ -730,7 +730,7 @@
   padding: 64px 24px;
   color: var(--text-400);
   font-size: 14px;
-  background: white;
+  background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: 12px;
 }
@@ -755,7 +755,7 @@
 }
 
 .bookingCard {
-  background: white;
+  background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: 12px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
@@ -848,7 +848,7 @@
 }
 
 .modal {
-  background: white;
+  background: var(--color-surface);
   border-radius: 16px;
   box-shadow: 0 24px 64px rgba(0, 0, 0, 0.18);
   width: 100%;
@@ -939,7 +939,7 @@
   padding: 7px 16px;
   border-radius: 8px;
   border: 1.5px solid var(--color-border);
-  background: white;
+  background: var(--color-surface);
   color: var(--color-text-muted);
   font-size: 13px;
   font-weight: 600;
@@ -1001,7 +1001,7 @@
   font-size: 14px;
   font-family: var(--font-sans);
   color: var(--color-text);
-  background: white;
+  background: var(--color-surface);
   transition: border-color 130ms, box-shadow 130ms;
   width: 100%;
   box-sizing: border-box;
@@ -1024,7 +1024,7 @@
   font-size: 14px;
   font-family: var(--font-sans);
   color: var(--color-text);
-  background: white;
+  background: var(--color-surface);
   transition: border-color 130ms, box-shadow 130ms;
   width: 100%;
   box-sizing: border-box;
@@ -1080,7 +1080,7 @@
 .timeSlotBtnActive {
   background: var(--color-primary);
   border-color: var(--color-primary);
-  color: white;
+  color: var(--color-surface);
 }
 
 .noSlots {
@@ -1095,7 +1095,7 @@
   padding: 8px 18px;
   border-radius: 8px;
   border: 1.5px solid var(--color-border);
-  background: white;
+  background: var(--color-surface);
   color: var(--color-text-muted);
   font-size: 13px;
   font-weight: 600;
@@ -1121,7 +1121,7 @@
   border-radius: 8px;
   border: none;
   background: var(--color-primary);
-  color: white;
+  color: var(--color-surface);
   font-size: 13px;
   font-weight: 700;
   font-family: var(--font-sans);
@@ -1153,7 +1153,7 @@
   gap: 6px;
   padding: 8px 16px;
   background: #16a34a;
-  color: #fff;
+  color: var(--color-surface);
   border: none;
   border-radius: 6px;
   font-size: 0.875rem;
@@ -1386,7 +1386,7 @@
   border-radius: 8px;
   border: none;
   background: var(--color-primary);
-  color: white;
+  color: var(--color-surface);
   font-size: 13px;
   font-weight: 700;
   font-family: var(--font-sans);

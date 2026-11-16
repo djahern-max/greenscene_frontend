@@ -22,7 +22,7 @@
 .sidebar {
     border-right: 1px solid var(--color-border);
     padding: 18px 0;
-    background: #ffffff;
+    background: var(--color-surface);
     overflow-y: auto;
     transition: transform 240ms ease;
     z-index: 200;
@@ -153,7 +153,7 @@
     align-items: center;
     gap: 10px;
     padding: 10px 14px;
-    background: #ffffff;
+    background: var(--color-surface);
     border-bottom: 1px solid var(--color-border);
     flex-shrink: 0;
 }
@@ -193,7 +193,7 @@
     gap: 10px;
     padding: 11px 20px;
     border-bottom: 1px solid var(--color-border);
-    background: #ffffff;
+    background: var(--color-surface);
     flex-shrink: 0;
     flex-wrap: wrap;
 }
@@ -231,7 +231,7 @@
 .searchInput:focus {
     border-color: var(--color-primary);
     box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-primary) 8%, transparent);
-    background: #ffffff;
+    background: var(--color-surface);
 }
 
 .searchInput::placeholder {
@@ -243,7 +243,7 @@
     background: var(--color-primary);
     border: 1px solid var(--color-primary);
     border-radius: 7px;
-    color: #ffffff;
+    color: var(--color-surface);
     font-size: 13px;
     font-weight: 600;
     cursor: pointer;
@@ -370,7 +370,7 @@
 
 .filterInput {
     padding: 5px 9px;
-    background: #ffffff;
+    background: var(--color-surface);
     border: 1px solid var(--color-border);
     border-radius: 6px;
     color: var(--color-text);
@@ -449,7 +449,7 @@
     border-bottom: 1px solid var(--color-border);
     cursor: pointer;
     padding: 0 20px;
-    background: #ffffff;
+    background: var(--color-surface);
     transition: background 0.1s;
 }
 
@@ -516,7 +516,7 @@
     background: var(--color-primary);
     border: 1px solid var(--color-primary);
     border-radius: 6px;
-    color: #ffffff;
+    color: var(--color-surface);
     font-size: 12px;
     font-weight: 600;
     cursor: pointer;
@@ -593,7 +593,7 @@
     background: #dc2626;
     border: 1px solid #dc2626;
     border-radius: 6px;
-    color: #ffffff;
+    color: var(--color-surface);
     font-size: 12px;
     font-weight: 600;
     cursor: pointer;
@@ -647,7 +647,7 @@
 .editInput {
     width: 100%;
     padding: 5px 9px;
-    background: #ffffff;
+    background: var(--color-surface);
     border: 1px solid var(--color-border);
     border-radius: 5px;
     color: var(--color-text);
@@ -666,7 +666,7 @@
 .editTextarea {
     width: 100%;
     padding: 7px 9px;
-    background: #ffffff;
+    background: var(--color-surface);
     border: 1px solid var(--color-border);
     border-radius: 5px;
     color: var(--color-text);
@@ -745,7 +745,7 @@
     justify-content: space-between;
     padding: 10px 20px;
     border-top: 1px solid var(--color-border);
-    background: #ffffff;
+    background: var(--color-surface);
     flex-shrink: 0;
 }
 

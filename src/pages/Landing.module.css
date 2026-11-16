@@ -21,7 +21,7 @@
   flex-direction: column;
   font-family: 'DM Sans', system-ui, sans-serif;
   color: var(--ink);
-  background: #fff;
+  background: var(--color-surface);
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
 }
@@ -128,7 +128,7 @@
 
 .navSignIn:hover {
   background: var(--accent);
-  color: #fff;
+  color: var(--color-surface);
 }
 
 .navSignIn:focus-visible,
@@ -140,7 +140,7 @@
 .navCta {
   font-size: 0.9rem;
   font-weight: 600;
-  color: #fff;
+  color: var(--color-surface);
   background: var(--accent);
   text-decoration: none;
   border-radius: 100px;
@@ -241,7 +241,7 @@
   font-family: inherit;
   font-size: 1.05rem;
   font-weight: 700;
-  color: #fff;
+  color: var(--color-surface);
   background: var(--accent);
   border: none;
   border-radius: 100px;
@@ -281,7 +281,7 @@
 
 .ctaSecondary:hover {
   background: var(--accent);
-  color: #fff;
+  color: var(--color-surface);
 }
 
 .ctaSecondary:focus-visible {
@@ -348,7 +348,7 @@
 .videoPlayButton svg {
   width: 34px;
   height: 34px;
-  color: #fff;
+  color: var(--color-surface);
   margin-left: 4px;
 }
 
@@ -373,7 +373,7 @@
 }
 
 .videoPlayButton:focus-visible {
-  outline: 2px solid #fff;
+  outline: 2px solid var(--color-surface);
   outline-offset: -4px;
 }
 
@@ -401,7 +401,7 @@
 .demo {
   position: relative;
   z-index: 1;
-  background: #fff;
+  background: var(--color-surface);
   border: 1px solid var(--line);
   border-radius: 16px;
   box-shadow:
@@ -481,7 +481,7 @@
 .demoMsgBubble {
   font-size: 0.88rem;
   line-height: 1.5;
-  color: #fff;
+  color: var(--color-surface);
   background: var(--accent);
   border-radius: 14px 14px 4px 14px;
   padding: 0.7rem 1rem;
@@ -579,7 +579,7 @@
 /* ── Proof row ─────────────────────────────────────────────────── */
 .proofSection {
   border-top: 1px solid var(--line);
-  background: #fff;
+  background: var(--color-surface);
   padding: 56px 1.5rem;
 }
 

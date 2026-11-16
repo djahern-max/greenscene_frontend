@@ -81,7 +81,7 @@
 /* Variants */
 .primary {
     background: var(--color-primary);
-    color: #ffffff;
+    color: var(--color-surface);
     box-shadow: 0 2px 8px color-mix(in srgb, var(--color-primary) 25%, transparent);
 }
 
@@ -91,7 +91,7 @@
 }
 
 .secondary {
-    background: #ffffff;
+    background: var(--color-surface);
     color: var(--color-primary);
     border: 1.5px solid var(--color-primary);
 }
