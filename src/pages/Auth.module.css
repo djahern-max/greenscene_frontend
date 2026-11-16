@@ -33,7 +33,7 @@
 
 /* Subtle RYZE watermark inside card */
 .authContainer::before {
-  content: 'RYZE';
+  content: 'Greenscene';
   position: absolute;
   right: -16px;
   bottom: -28px;

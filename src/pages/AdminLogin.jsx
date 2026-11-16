@@ -33,7 +33,7 @@ function AdminLogin() {
         {/* ── Logo & heading ──────────────────────── */}
         <div className={styles.authHeader}>
           <div className={styles.logo}>
-            RYZE<span className={styles.logoAi}>.ai</span>
+            Greenscene
           </div>
           <h1 className={styles.authTitle}>Admin Access</h1>
           <p className={styles.authSubtitle}>
@@ -49,7 +49,7 @@ function AdminLogin() {
             <input
               id="email"
               type="email"
-              placeholder="you@ryze.ai"
+              placeholder="you@greenscene.io"
               value={email}
               onChange={(e) => { setEmail(e.target.value); setError(''); }}
               required

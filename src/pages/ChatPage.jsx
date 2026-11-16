@@ -286,7 +286,7 @@ export default function ChatPage() {
 
     // Active session title for mobile header
     const activeSession = sessions.find(s => s.id === activeSessionId);
-    const mobileChatTitle = activeSession?.title || "RYZE Intelligence";
+    const mobileChatTitle = activeSession?.title || "Greenscene Intelligence";
 
     // ── Auto-scroll ────────────────────────────────────────────────────────
     useEffect(() => {
@@ -573,7 +573,7 @@ export default function ChatPage() {
                                         <path fill="#004aad" d="M 186.078125 19.484375 L 0.367188 341.148438 L 180.234375 341.148438 L 229.054688 256.585938 L 201.605469 215.015625 L 190.46875 234.308594 L 154.511719 296.59375 L 77.539062 296.59375 L 186.394531 108.039062 L 296.730469 295.972656 L 243.730469 295.972656 L 221.453125 340.527344 L 374.554688 340.527344 Z" />
                                     </svg>
                                 </div>
-                                <h2 className={styles.emptyTitle}>RYZE Intelligence</h2>
+                                <h2 className={styles.emptyTitle}>Greenscene Intelligence</h2>
                                 <p className={styles.emptySub}>Ask anything about your candidates, employers, or schedule. Your entire recruiting database, in plain English.</p>
                             </div>
                         )}

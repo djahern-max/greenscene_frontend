@@ -30,7 +30,7 @@ export default function BillingSuccess() {
     return (
         <div className={styles.page}>
             <div className={styles.card}>
-                <div className={styles.logo}>RYZE.ai</div>
+                <div className={styles.logo}>Greenscene</div>
 
                 <div className={styles.iconWrap}>
                     <img src={happyFace} alt="" style={{ width: '64px', height: '64px' }} />

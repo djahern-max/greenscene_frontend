@@ -183,7 +183,7 @@ export default function BookingCard({ variant = "employer" }) {
           <p className={styles.subtext}>
             {isCandidate
               ? "Tell us a bit about yourself and pick a time that works for you."
-              : "Let us learn about your hiring needs and how RYZE can help."}
+              : "Let us learn about your hiring needs and how Greenscene can help."}
           </p>
         </div>
 

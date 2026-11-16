@@ -173,7 +173,7 @@
 /* Faint RYZE.ai watermark — rises from behind the headline to above it.
    Thus the name. */
 .hero::before {
-  content: 'RYZE.ai';
+  content: 'Greenscene';
   position: absolute;
   top: 4px;
   left: 50%;

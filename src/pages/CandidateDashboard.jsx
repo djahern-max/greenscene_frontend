@@ -336,7 +336,7 @@ export default function CandidateDashboard() {
         {!hasProfile && (
           <section className={styles.howItWorks}>
             <div className={styles.howItWorksIntro}>
-              <span className={styles.howItWorksBadge}>How RYZE.ai works</span>
+              <span className={styles.howItWorksBadge}>How Greenscene works</span>
               <h2 className={styles.howItWorksTitle}>
                 Your profile starts with a quick conversation.
               </h2>
@@ -345,7 +345,7 @@ export default function CandidateDashboard() {
                 goals, experience, and what kind of opportunity would actually be a good fit.
               </p>
               <p className={styles.howItWorksText}>
-                After the call, RYZE.ai uses the conversation notes to help build your
+                After the call, Greenscene uses the conversation notes to help build your
                 candidate profile. From there, matched opportunities can appear here as
                 relevant roles become available.
               </p>
@@ -420,7 +420,7 @@ export default function CandidateDashboard() {
                       {booking.date && formatDate(booking.date)}
                       {booking.time_slot && ` · ${formatTime(booking.time_slot)}`}
                     </div>
-                    <div className={styles.callMeta}>Intro call with RYZE.ai</div>
+                    <div className={styles.callMeta}>Intro call with Greenscene</div>
                     {booking.status === 'cancelled' && (
                       <p className={styles.callNote}>
                         This call was cancelled.{' '}

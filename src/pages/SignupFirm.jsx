@@ -57,7 +57,7 @@ function SignupFirm() {
   return (
     <div className={styles.page}>
       <div className={styles.card}>
-        <div className={styles.logo}>RYZE.ai</div>
+        <div className={styles.logo}>Greenscene</div>
         <h1 className={styles.title}>Start your free trial</h1>
         <p className={styles.sub}>60-day free trial. Set up your firm's account in under a minute.</p>
 

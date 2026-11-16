@@ -120,7 +120,7 @@ function DemoChat() {
           <span style={{ background: "#febc2e" }} />
           <span style={{ background: "#28c840" }} />
         </div>
-        <span className={styles.demoWindowTitle}>RYZE Intelligence</span>
+        <span className={styles.demoWindowTitle}>Greenscene Intelligence</span>
       </div>
       <div className={styles.demoMessages}>
         {displayQ && (
@@ -134,7 +134,7 @@ function DemoChat() {
         )}
         {phase === "answering" && !displayA && (
           <div className={styles.demoMsgAi}>
-            <div className={styles.demoMsgLabel}>RYZE</div>
+            <div className={styles.demoMsgLabel}>Greenscene</div>
             <div className={styles.demoThinking}>
               <span /><span /><span />
             </div>
@@ -142,7 +142,7 @@ function DemoChat() {
         )}
         {displayA && (
           <div className={styles.demoMsgAi}>
-            <div className={styles.demoMsgLabel}>RYZE</div>
+            <div className={styles.demoMsgLabel}>Greenscene</div>
             <div className={styles.demoMsgAiBubble}>
               {displayA}
               {phase === "answering" && <span className={styles.cursor}>|</span>}
@@ -242,7 +242,7 @@ export default function Landing() {
               <TypewriterTag text="FOR RECRUITERS" />
             </span>
             <span className={styles.brandMobile}>
-              RYZE<span className={styles.brandMobileAi}>.ai</span>
+              Greenscene
             </span>
           </a>
           <div className={styles.navActions}>
@@ -290,7 +290,7 @@ export default function Landing() {
 
       {/* ── Intelligence preview (below the fold) ──── */}
       <section className={styles.chatSection}>
-        <h2 className={styles.chatSectionTitle}>See RYZE Intelligence in action</h2>
+        <h2 className={styles.chatSectionTitle}>See Greenscene Intelligence in action</h2>
         <div className={styles.previewWrap}>
           <div className={styles.previewGlow} aria-hidden="true" />
           <DemoChat />
@@ -302,7 +302,7 @@ export default function Landing() {
         <div className={styles.footerInner}>
           <div className={styles.footerBrand}>
             <span className={styles.wordmarkSm}>
-              RYZE
+              Greenscene
             </span>
             <span>© {new Date().getFullYear()}</span>
           </div>

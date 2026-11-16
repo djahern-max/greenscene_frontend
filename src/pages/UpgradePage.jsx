@@ -44,7 +44,7 @@ export default function UpgradePage() {
             <div className={styles.card}>
 
                 {/* Logo */}
-                <div className={styles.logo}>RYZE.ai</div>
+                <div className={styles.logo}>Greenscene</div>
 
                 {/* Icon */}
                 <div className={styles.iconWrap}>
@@ -61,7 +61,7 @@ export default function UpgradePage() {
                 {/* Plan card */}
                 <div className={styles.planCard}>
                     <div className={styles.planHeader}>
-                        <span className={styles.planName}>RYZE.ai Recruiting Platform</span>
+                        <span className={styles.planName}>Greenscene Recruiting Platform</span>
 
                     </div>
                     <div className={styles.planPrice}>
@@ -72,7 +72,7 @@ export default function UpgradePage() {
                         <li><i className="fi fi-rr-check"></i> Full candidate &amp; employer pipeline</li>
                         <li><i className="fi fi-rr-check"></i> AI-powered matching &amp; intelligence briefs</li>
                         <li><i className="fi fi-rr-check"></i> Zoom booking &amp; calendar integration</li>
-                        <li><i className="fi fi-rr-check"></i> RYZE Intelligence chat</li>
+                        <li><i className="fi fi-rr-check"></i> Greenscene Intelligence chat</li>
                         <li><i className="fi fi-rr-check"></i> Transcript capture &amp; meeting summaries</li>
                     </ul>
                 </div>

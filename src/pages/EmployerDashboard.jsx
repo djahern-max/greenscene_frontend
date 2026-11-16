@@ -163,7 +163,7 @@ function JobCard({ job, candidateMatches, matchesLoading, onSchedule }) {
             </span>
             {hasCandidates && (
               <span className={styles.candidateSectionBadge}>
-                RYZE Matched
+                Greenscene Matched
               </span>
             )}
           </div>
@@ -202,7 +202,7 @@ function JobCard({ job, candidateMatches, matchesLoading, onSchedule }) {
             </div>
             <div className={styles.candidateCta}>
               <button className={styles.requestBtn} onClick={onSchedule}>
-                Talk to RYZE about this AI opportunity →
+                Talk to Greenscene about this AI opportunity →
               </button>
             </div>
           </>
@@ -333,7 +333,7 @@ export default function EmployerDashboard() {
         {!profileLoading && !bookingsLoading && !profile && myBookings.length === 0 && (
           <div className={styles.intro}>
             <p className={styles.introText}>
-              Start by scheduling a discovery call. This is simply the first step in understanding how your organization works today, where manual processes may be slowing things down, and where automation or practical technology could potentially help. From there, RYZE can help identify realistic opportunities, build a clearer profile of your needs, and determine whether there may be a good fit with someone who can help move the work forward.
+              Start by scheduling a discovery call. This is simply the first step in understanding how your organization works today, where manual processes may be slowing things down, and where automation or practical technology could potentially help. From there, Greenscene can help identify realistic opportunities, build a clearer profile of your needs, and determine whether there may be a good fit with someone who can help move the work forward.
             </p>
           </div>
         )}
@@ -344,7 +344,7 @@ export default function EmployerDashboard() {
             <div className={styles.sectionHeader}>
               <h3 className={styles.sectionTitle}>Your AI Opportunities</h3>
               <p className={styles.sectionSub}>
-                {myRoles.length} active opportunit{myRoles.length !== 1 ? 'ies' : 'y'} with RYZE —
+                {myRoles.length} active opportunit{myRoles.length !== 1 ? 'ies' : 'y'} with Greenscene —
                 recommended builders shown for each
               </p>
             </div>
@@ -390,7 +390,7 @@ export default function EmployerDashboard() {
                       {booking.date && formatDate(booking.date)}
                       {booking.time_slot && ` · ${formatTime(booking.time_slot)}`}
                     </div>
-                    <div className={styles.callMeta}>AI opportunity discovery with RYZE.ai</div>
+                    <div className={styles.callMeta}>AI opportunity discovery with Greenscene</div>
                   </div>
 
                   {booking.status === 'confirmed' && booking.meeting_url && (
@@ -421,7 +421,7 @@ export default function EmployerDashboard() {
             <div className={styles.sectionHeader}>
               <h3 className={styles.sectionTitle}>Other AI Opportunities in the Network</h3>
               <p className={styles.sectionSub}>
-                {otherRoles.length} additional opportunit{otherRoles.length !== 1 ? 'ies' : 'y'} being shaped across the RYZE network
+                {otherRoles.length} additional opportunit{otherRoles.length !== 1 ? 'ies' : 'y'} being shaped across the Greenscene network
               </p>
             </div>
             <div className={styles.jobList}>

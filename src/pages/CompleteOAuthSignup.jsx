@@ -61,7 +61,7 @@ function CompleteOAuthSignup() {
     <div className={styles.authPage}>
       <div className={styles.authContainer}>
         <div className={styles.authHeader}>
-          <h1 className={styles.logo}>RYZE.ai</h1>
+          <h1 className={styles.logo}>Greenscene</h1>
           <h2 className={styles.authTitle}>Complete Your Sign Up</h2>
           <p className={styles.authSubtitle}>
             Please select your account type to continue

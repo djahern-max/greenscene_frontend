@@ -57,7 +57,7 @@ function DemoRequest() {
   return (
     <div className={styles.page}>
       <div className={styles.card}>
-        <div className={styles.logo}>RYZE.ai</div>
+        <div className={styles.logo}>Greenscene</div>
 
         {submitted ? (
           <div className={styles.successState}>

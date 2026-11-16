@@ -135,7 +135,7 @@ export default function TenantSettings() {
                         <p className={styles.sub}>
                             Control how your firm appears on outbound email and SMS.
                             Leave a field blank to use the platform default. Emails are
-                            sent under your firm's name from RYZE's email service;
+                            sent under your firm's name from Greenscene's email service;
                             replies go to your Reply-To address.
                         </p>
                     </div>
