@@ -7,19 +7,19 @@ const TermsOfService = () => {
         <div className={styles.container}>
             <div className={styles.content}>
                 <h1>Terms of Service</h1>
-                <p className={styles.lastUpdated}>Last Updated: March 16, 2026</p>
+                <p className={styles.lastUpdated}>Last Updated: November 16, 2026</p>
 
                 <section>
                     <h2>1. Agreement to Terms</h2>
                     <p>
-                        By accessing or using RYZE.ai ("Platform"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, please do not use our Platform.
+                        By accessing or using Greenscene ("Platform"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, please do not use our Platform.
                     </p>
                 </section>
 
                 <section>
                     <h2>2. Description of Service</h2>
                     <p>
-                        RYZE.ai is a recruiting platform that connects employers with job candidates. The Platform allows employers to post job listings and candidates to create profiles and apply for positions.
+                        Greenscene is a recruiting platform that connects employers with job candidates. The Platform allows employers to post job listings and candidates to create profiles and apply for positions.
                     </p>
                 </section>
 
@@ -108,16 +108,16 @@ const TermsOfService = () => {
                     <p>
                         By providing your phone number and checking the SMS consent box on our booking
                         form, you explicitly consent to receive transactional SMS notifications from
-                        RYZE GROUP, Inc. (RYZE.ai). These messages include booking confirmations, call
+                        Greenscene, LLC. These messages include booking confirmations, call
                         reminders, and cancellation notices. No SMS messages are sent without this
                         explicit opt-in.
                     </p>
                     <ul>
-                        <li><strong>Sender:</strong> RYZE GROUP, Inc. d/b/a RYZE.ai</li>
+                        <li><strong>Sender:</strong> Greenscene, LLC</li>
                         <li><strong>Message Frequency:</strong> Message frequency varies based on your booking activity. You will typically receive 2–4 messages per scheduled call (confirmation, reminders, and any cancellation notice).</li>
                         <li><strong>Message &amp; Data Rates:</strong> Message and data rates may apply depending on your mobile carrier and plan.</li>
                         <li><strong>Opt-Out:</strong> <strong>Reply STOP</strong> to any message to unsubscribe. You will receive a one-time confirmation and no further messages will be sent.</li>
-                        <li><strong>Help:</strong> <strong>Reply HELP</strong> for assistance or contact us at <a href="mailto:dane@ryze.ai">dane@ryze.ai</a>.</li>
+                        <li><strong>Help:</strong> <strong>Reply HELP</strong> for assistance or contact us at <a href="mailto:hello@greenscene.io">hello@greenscene.io</a>.</li>
                         <li><strong>No Marketing:</strong> We do not send marketing or promotional SMS messages. All messages are transactional only.</li>
                         <li><strong>Third-Party Provider:</strong> SMS communications are facilitated through Twilio, Inc. Your phone number will not be shared with third parties for marketing purposes.</li>
                     </ul>
@@ -160,14 +160,14 @@ const TermsOfService = () => {
                 <section>
                     <h2>12. Limitation of Liability</h2>
                     <p>
-                        TO THE MAXIMUM EXTENT PERMITTED BY LAW, RYZE.ai SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS OR REVENUES, WHETHER INCURRED DIRECTLY OR INDIRECTLY, OR ANY LOSS OF DATA, USE, GOODWILL, OR OTHER INTANGIBLE LOSSES.
+                        TO THE MAXIMUM EXTENT PERMITTED BY LAW, GREENSCENE, LLC SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS OR REVENUES, WHETHER INCURRED DIRECTLY OR INDIRECTLY, OR ANY LOSS OF DATA, USE, GOODWILL, OR OTHER INTANGIBLE LOSSES.
                     </p>
                 </section>
 
                 <section>
                     <h2>13. Indemnification</h2>
                     <p>
-                        You agree to indemnify and hold harmless RYZE.ai from any claims, damages, losses, liabilities, and expenses arising from your use of the Platform or violation of these Terms.
+                        You agree to indemnify and hold harmless Greenscene, LLC from any claims, damages, losses, liabilities, and expenses arising from your use of the Platform or violation of these Terms.
                     </p>
                 </section>
 
@@ -203,8 +203,8 @@ const TermsOfService = () => {
                     <h2>18. Contact Information</h2>
                     <p>If you have questions about these Terms, please contact us:</p>
                     <ul>
-                        <li>Email: <a href="mailto:dane@ryze.ai">dane@ryze.ai</a></li>
-                        <li>Website: <a href="https://ryze.ai">https://ryze.ai</a></li>
+                        <li>Email: <a href="mailto:hello@greenscene.io">hello@greenscene.io</a></li>
+                        <li>Website: <a href="https://greenscene.io">https://greenscene.io</a></li>
                     </ul>
                 </section>
             </div>

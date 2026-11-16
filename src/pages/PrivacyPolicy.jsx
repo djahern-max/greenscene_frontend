@@ -7,15 +7,15 @@ const PrivacyPolicy = () => {
         <div className={styles.container}>
             <div className={styles.content}>
                 <h1>Privacy Policy</h1>
-                <p className={styles.lastUpdated}>Last Updated: March 29, 2026</p>
+                <p className={styles.lastUpdated}>Last Updated: November 16, 2026</p>
 
                 <section>
                     <h2>1. Introduction</h2>
                     <p>
-                        Welcome to RYZE.ai, operated by RYZE GROUP, Inc. ("we," "our," or "us"). We are
+                        Welcome to Greenscene, operated by Greenscene, LLC ("we," "our," or "us"). We are
                         committed to protecting your personal information and your right to privacy. This
                         Privacy Policy explains how we collect, use, disclose, and safeguard your information
-                        when you use our recruiting platform at ryze.ai.
+                        when you use our recruiting platform at greenscene.io.
                     </p>
                 </section>
 
@@ -53,7 +53,7 @@ const PrivacyPolicy = () => {
                         to send you transactional SMS notifications. These messages include booking
                         confirmations, call reminders, and cancellation notices. By providing your phone
                         number and checking the SMS consent box on our booking form, you explicitly consent
-                        to receive these transactional SMS messages from RYZE GROUP, Inc. (RYZE.ai).
+                        to receive these transactional SMS messages from Greenscene, LLC.
                         Message and data rates may apply. You may opt out at any time by replying STOP to
                         any message. For help, reply HELP. We do not share your phone number with third
                         parties for marketing purposes. SMS communications are facilitated through
@@ -63,12 +63,12 @@ const PrivacyPolicy = () => {
                         Specifically regarding SMS:
                     </p>
                     <ul>
-                        <li><strong>Sender:</strong> RYZE GROUP, Inc. d/b/a RYZE.ai</li>
+                        <li><strong>Sender:</strong> Greenscene, LLC</li>
                         <li><strong>Message types:</strong> Transactional only — booking confirmations, appointment reminders, and cancellation notices. No marketing or promotional messages.</li>
                         <li><strong>Message frequency:</strong> Varies based on booking activity. Typically 2–4 messages per scheduled call.</li>
                         <li><strong>Opt-in:</strong> Consent is collected via an explicit checkbox on our booking form at the time your phone number is provided.</li>
                         <li><strong>Opt-out:</strong> Reply STOP to any message to unsubscribe immediately. You will receive a one-time confirmation and no further messages will be sent.</li>
-                        <li><strong>Help:</strong> Reply HELP to any message or contact us at <a href="mailto:dane@ryze.ai">dane@ryze.ai</a>.</li>
+                        <li><strong>Help:</strong> Reply HELP to any message or contact us at <a href="mailto:hello@greenscene.io">hello@greenscene.io</a>.</li>
                         <li><strong>Service provider:</strong> Twilio, Inc. Your phone number is not sold or shared with third parties for marketing purposes.</li>
                     </ul>
                 </section>
@@ -132,7 +132,7 @@ const PrivacyPolicy = () => {
                         <li><strong>Withdraw Consent:</strong> Withdraw consent for data processing where applicable</li>
                     </ul>
                     <p>
-                        To exercise these rights, please contact us at <a href="mailto:dane@ryze.ai">dane@ryze.ai</a>.
+                        To exercise these rights, please contact us at <a href="mailto:hello@greenscene.io">hello@greenscene.io</a>.
                     </p>
                 </section>
 
@@ -192,9 +192,9 @@ const PrivacyPolicy = () => {
                     <h2>12. Contact Us</h2>
                     <p>If you have questions about this Privacy Policy, please contact us:</p>
                     <ul>
-                        <li>Company: RYZE GROUP, Inc. d/b/a RYZE.ai</li>
-                        <li>Email: <a href="mailto:dane@ryze.ai">dane@ryze.ai</a></li>
-                        <li>Website: <a href="https://ryze.ai">https://ryze.ai</a></li>
+                        <li>Company: Greenscene, LLC</li>
+                        <li>Email: <a href="mailto:hello@greenscene.io">hello@greenscene.io</a></li>
+                        <li>Website: <a href="https://greenscene.io">https://greenscene.io</a></li>
                     </ul>
                 </section>
             </div>
